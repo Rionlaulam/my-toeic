@@ -13,7 +13,7 @@
   const HISTORY_KEY = 'clearline.toeic.history.v1';
   const app = document.getElementById('app-root');
   const APP_BASE = new URL('.', document.currentScript?.src || document.baseURI);
-  let state = { view: 'home', test: null, testNo: 1, mode: 'practice', phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), result: null };
+  let state = { view: 'home', test: null, testNo: 1, mode: 'practice', phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), activeAudioToken: '', audioState: 'idle', result: null };
 
   const esc = (value = '') => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmtTime = seconds => `${Math.floor(Math.max(0, seconds) / 60).toString().padStart(2, '0')}:${(Math.max(0, seconds) % 60).toString().padStart(2, '0')}`;
@@ -55,7 +55,7 @@
       </article>`;
     }).join('');
     const historyMarkup = history.length ? `<div class="history-list">${history.slice(0, 5).map(h => `<div class="history-row"><strong>Test ${h.testNo} · ${esc(h.mode === 'exam' ? 'Timed exam' : 'Practice')}</strong><span>${new Date(h.date).toLocaleDateString()}</span><span>${h.totalRaw}/200 correct</span><span class="history-score">${h.estimatedTotal} est.</span><span>${h.listeningRaw}/100 L · ${h.readingRaw}/100 R</span></div>`).join('')}</div>` : `<div class="history-empty">Your completed attempts will appear here. Progress is stored in this browser only.</div>`;
-    return `<section class="hero"><div class="hero-copy"><p class="eyebrow">A clearer way to practice</p><h1>Build confidence.<br>One question at a time.</h1><p>Five complete Listening & Reading practice sets. Work at your own pace with instant feedback, or sit a timed two-section exam and review your result afterward.</p></div><div class="hero-side"><div class="stat-row"><span class="stat-num">05</span><span class="stat-label">separate<br>practice tests</span></div><div class="stat-row"><span class="stat-num">200</span><span class="stat-label">questions in<br>each full set</span></div><div class="stat-row"><span class="stat-num">7</span><span class="stat-label">parts across<br>two sections</span></div></div></section>
+    return `<section class="hero"><div class="hero-copy"><p class="eyebrow">A clearer way to practice</p><h1>Build confidence.<br>One question at a time.</h1><p>Five complete Listening & Reading practice sets. Work at your own pace or sit a timed two-section exam; answer keys, scripts, and explanations appear in a comprehensive review after submission.</p></div><div class="hero-side"><div class="stat-row"><span class="stat-num">05</span><span class="stat-label">separate<br>practice tests</span></div><div class="stat-row"><span class="stat-num">200</span><span class="stat-label">questions in<br>each full set</span></div><div class="stat-row"><span class="stat-num">7</span><span class="stat-label">parts across<br>two sections</span></div></div></section>
       <section aria-labelledby="tests-title"><div class="section-heading"><div><h2 id="tests-title">Choose a practice set</h2><p>Practice freely, or start a timed attempt.</p></div><span class="quiet-label">Only the selected test loads</span></div><div class="test-grid">${cards}</div></section>
       <aside class="info-strip"><span class="info-icon" aria-hidden="true">i</span><p><strong>About score estimates.</strong> ETS reports Listening and Reading on separate 5–495 scales. Because exact raw-to-scaled conversion depends on the test form, this app shows a clearly marked practice estimate—not an official TOEIC score.</p><a class="inline-link" href="https://www.etsglobal.org/fr/en/content/understanding-toeic-tests-scores" target="_blank" rel="noreferrer">ETS score overview ↗</a></aside>
       <section class="history-section"><div class="section-heading"><div><h2>Your recent attempts</h2><p>Saved on this device in LocalStorage.</p></div><button class="text-button" data-action="clear-history" ${history.length ? '' : 'hidden'}>Clear history</button></div><div class="history-card">${historyMarkup}</div></section>`;
@@ -77,7 +77,7 @@
       if (!response.ok) throw new Error(`Test file returned ${response.status} (${dataUrl.pathname})`);
       const test = await response.json();
       if (!Array.isArray(test.questions) || test.questions.length !== 200) throw new Error('The selected dataset does not contain 200 questions.');
-      state = { ...state, view: 'start', test, testNo, mode, phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), result: null };
+      state = { ...state, view: 'start', test, testNo, mode, phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), activeAudioToken: '', audioState: 'idle', result: null };
       renderStart();
     } catch (error) {
       app.innerHTML = `<div class="empty-note"><strong>Could not load Practice Test ${testNo}.</strong><br>${esc(error.message)}<br><br>Serve this folder over HTTP with <code>node serve.js</code> rather than opening index.html directly.</div><button class="btn btn-secondary" data-action="home">Back to dashboard</button>`;
@@ -87,13 +87,13 @@
   function renderStart() {
     state.view = 'start';
     app.innerHTML = `<div class="exam-topline"><button class="back-link" data-action="home">← Dashboard</button><span class="exam-badge">Five-test series</span></div>
-    <section class="start-card"><div class="start-hero"><p class="eyebrow">Practice Test ${state.testNo}</p><h1>Choose how you want to work.</h1><p>All 200 questions are original practice content. You can review each answer immediately or complete both sections before seeing your result.</p></div>
-    <div class="start-body"><div class="mode-grid"><article class="mode-card practice"><span class="mode-icon" aria-hidden="true">✎</span><h3>Practice mode</h3><p>Move freely between questions. Check answers instantly, read explanations, and reveal listening scripts.</p><button class="btn btn-primary" data-action="begin" data-mode="practice">Start practice</button></article><article class="mode-card"><span class="mode-icon" aria-hidden="true">◷</span><h3>Timed exam mode</h3><p>45-minute Listening phase, then 75-minute Reading phase. Answers and scripts stay hidden until submission.</p><button class="btn btn-secondary" data-action="begin" data-mode="exam">Start timed exam</button></article></div>
+    <section class="start-card"><div class="start-hero"><p class="eyebrow">Practice Test ${state.testNo}</p><h1>Choose how you want to work.</h1><p>All 200 questions are original practice content. In either mode, your choices are saved silently; answers, scripts, and explanations are revealed after you submit.</p></div>
+    <div class="start-body"><div class="mode-grid"><article class="mode-card practice"><span class="mode-icon" aria-hidden="true">✎</span><h3>Practice mode</h3><p>Move freely through all questions without correctness badges or answer reveals. Submit when ready for your full review.</p><button class="btn btn-primary" data-action="begin" data-mode="practice">Start practice</button></article><article class="mode-card"><span class="mode-icon" aria-hidden="true">◷</span><h3>Timed exam mode</h3><p>45-minute Listening phase, then 75-minute Reading phase. Answers and scripts stay hidden until submission.</p><button class="btn btn-secondary" data-action="begin" data-mode="exam">Start timed exam</button></article></div>
     <div class="format-note"><strong>Test structure:</strong> Listening — 45 minutes, 100 questions. Reading — 75 minutes, 100 questions. Timed mode locks Listening when its time ends; you may also finish Listening early. Reading always receives up to 75 minutes, and the full attempt is capped at 120 minutes.</div></div></section>`;
   }
 
   function begin(mode) {
-    state.mode = mode; state.view = 'exam'; state.part = 1; state.index = 0; state.answers = {}; state.submitted = false; state.transcriptOpen = false; state.played = new Set(); state.phase = 'Listening'; state.remaining = 45 * 60; state.masterRemaining = 120 * 60; state.result = null;
+    state.mode = mode; state.view = 'exam'; state.part = 1; state.index = 0; state.answers = {}; state.submitted = false; state.transcriptOpen = false; state.played = new Set(); state.activeAudioToken = ''; state.audioState = 'idle'; state.phase = 'Listening'; state.remaining = 45 * 60; state.masterRemaining = 120 * 60; state.result = null;
     renderExam();
     if (mode === 'exam') state.interval = setInterval(tick, 1000);
   }
@@ -112,30 +112,69 @@
 
   function renderMaterial(q, material) {
     let out = '';
-    if (q.image) out += `<figure class="photo-frame"><img src="${esc(q.image)}" alt="Original workplace scene illustration for listening question ${esc(q.id)}"><figcaption>Workplace scene illustration · Listen to the descriptions before choosing.</figcaption></figure>`;
+    if (q.image) out += `<figure class="photo-frame"><img src="${esc(q.image)}" alt="${esc(q.imageAlt || `Workplace photograph for question ${q.id}`)}" loading="lazy" referrerpolicy="no-referrer"><figcaption>${q.imageSource ? `Photo by ${esc(q.imageCredit || 'Unsplash contributor')} · <a href="${esc(q.imageSource)}" target="_blank" rel="noopener noreferrer">View photo source</a>` : 'Workplace photograph'}</figcaption></figure>`;
     if (q.section === 'Listening') {
-      const transcriptAvailable = Boolean(material?.transcript || q.audioText);
-      const canReveal = state.mode === 'practice' || state.submitted;
       const key = audioToken(q);
-      const alreadyPlayed = state.played.has(key);
-      out += `<div class="audio-box"><div class="audio-copy"><span class="audio-icon" aria-hidden="true">♫</span><div><strong>${q.part <= 2 ? 'Spoken question and responses' : esc(material?.title || 'Listening passage')}</strong><small>${state.mode === 'exam' && !state.submitted ? 'Use Play audio; scripts are hidden until submission.' : 'Browser speech playback · transcripts available below.'}</small></div></div><button class="play-btn" data-action="play-audio" data-q="${esc(q.id)}" ${alreadyPlayed && state.mode === 'exam' && !state.submitted ? 'disabled' : ''}>${alreadyPlayed && state.mode === 'exam' && !state.submitted ? 'Played' : '▶ Play audio'}</button></div>`;
-      if (transcriptAvailable && canReveal) {
-        out += `<button class="transcript-toggle" data-action="toggle-transcript">${state.transcriptOpen ? 'Hide transcript' : 'Show transcript'}</button>`;
-        if (state.transcriptOpen) out += `<div class="transcript-content">${esc(material?.transcript || q.audioText)}</div>`;
-      }
+      const isActive = state.activeAudioToken === key;
+      const label = isActive && state.audioState === 'playing' ? 'Pause audio' : isActive && state.audioState === 'paused' ? 'Resume audio' : (state.mode === 'practice' && state.played.has(key) ? 'Replay audio' : 'Play audio');
+      const disabled = state.mode === 'exam' && state.played.has(key) && !isActive;
+      const hint = disabled ? 'Played once for this timed attempt.' : 'Browser speech playback · scripts unlock after submission.';
+      const buttonText = isActive && state.audioState === 'playing' ? 'Ⅱ Pause' : isActive && state.audioState === 'paused' ? '▶ Resume' : state.mode === 'practice' && state.played.has(key) ? '↻ Replay' : '▶ Play audio';
+      out += `<div class="audio-box"><div class="audio-copy"><span class="audio-icon" aria-hidden="true">♫</span><div><strong>${q.part <= 2 ? 'Spoken question and responses' : esc(material?.title || 'Listening passage')}</strong><small>${hint}</small></div></div><button class="play-btn" type="button" data-action="play-audio" data-q="${esc(q.id)}" aria-label="${label}" ${disabled ? 'disabled' : ''}>${buttonText}</button></div>`;
     } else if (material?.documents?.length) {
       out += `<section class="material-card"><h3 class="material-title">${esc(material.title || 'Reading passage')}</h3><div class="doc-stack">${material.documents.map(d => `<article class="doc"><div class="doc-label">${esc(d.label || material.title || 'Passage')}</div><p class="doc-text">${esc(d.text)}</p></article>`).join('')}</div></section>`;
     }
     return out;
   }
 
-  function examFeedback(q) {
+  function wrongAnswerReason(q, key) {
+    if (q.review?.wrong?.[key]) return q.review.wrong[key];
+    const chosen = q.choices[key];
+    const explanation = q.explanation || 'The supporting details point to the correct option shown below.';
+    if (q.part === 1) return `The photograph shows ${q.imageAlt || 'a different visible scene'}, not “${chosen}.” The image supports “${q.choices[q.answer]}.”`;
+    if (q.part === 2) return `The question asks “${q.prompt}” but “${chosen}” does not answer it. The matching response is “${q.choices[q.answer]}.” ${explanation}`;
+    if (q.part === 3 || q.part === 4) return `The spoken passage does not support “${chosen}.” The dialogue or talk gives the evidence for “${q.choices[q.answer]}”: ${explanation}`;
+    if (q.part === 5) return `“${chosen}” does not fit the sentence’s grammar or meaning. ${explanation}`;
+    return `The passage does not support “${chosen}.” The relevant detail points to “${q.choices[q.answer]}”: ${explanation}`;
+  }
+
+  function reviewContextMarkup(q, material) {
+    let contents = '';
+    if (material?.documents?.length) contents = material.documents.map(d => `<article class="review-context-doc"><strong>${esc(d.label || material.title || 'Passage')}</strong><p>${esc(d.text)}</p></article>`).join('');
+    else if (material?.transcript) contents = `<p>${esc(material.transcript)}</p>`;
+    else if (q.audioText) contents = `<p>${esc(q.audioText)}</p>`;
+    if (!contents) return '';
+    const label = q.section === 'Listening' ? 'View listening script' : 'View reading passage';
+    return `<details class="review-context"><summary>${label}</summary><div class="review-context-body">${contents}</div></details>`;
+  }
+
+  function renderQuestionReview(q, position) {
     const selected = state.answers[q.id];
-    const showFeedback = state.mode === 'practice' || state.submitted;
-    if (!showFeedback) return '';
-    if (selected === undefined) return `<div class="feedback unanswered"><strong>Not answered</strong><p>The correct answer is ${esc(q.answer)}. ${esc(q.choices[q.answer])}</p><p>${esc(q.explanation)}</p></div>`;
     const correct = selected === q.answer;
-    return `<div class="feedback ${correct ? 'correct' : 'incorrect'}"><strong>${correct ? 'Correct answer' : 'Not quite — review the evidence'}</strong><p class="answer-line">Answer ${esc(q.answer)}: ${esc(q.choices[q.answer])}</p><p>${esc(q.explanation)}</p></div>`;
+    const status = selected === undefined ? 'Not answered' : correct ? 'Correct' : 'Incorrect';
+    const options = Object.entries(q.choices).map(([key, value]) => {
+      const isCorrect = key === q.answer;
+      const isWrongSelection = key === selected && !isCorrect;
+      const statusText = isCorrect ? 'Correct answer' : isWrongSelection ? 'Your answer · incorrect' : '';
+      return `<div class="review-option ${isCorrect ? 'is-correct' : ''} ${isWrongSelection ? 'is-wrong' : ''} ${key === selected ? 'is-selected' : ''}"><span class="review-option-key">${esc(key)}</span><span class="review-option-text">${esc(value)}</span>${statusText ? `<small>${statusText}</small>` : ''}</div>`;
+    }).join('');
+    const answerText = selected === undefined ? 'Not answered' : `${selected}: ${q.choices[selected]}`;
+    const image = q.image ? `<figure class="review-photo"><img src="${esc(q.image)}" alt="${esc(q.imageAlt || 'Workplace photograph')}" loading="lazy" referrerpolicy="no-referrer"><figcaption>${q.imageSource ? `Photo by ${esc(q.imageCredit || 'Unsplash contributor')} · <a href="${esc(q.imageSource)}" target="_blank" rel="noopener noreferrer">Unsplash source</a>` : ''}</figcaption></figure>` : '';
+    const selectedExplanation = selected === undefined ? 'No answer was selected for this question.' : correct ? 'Your selected answer matches the evidence.' : wrongAnswerReason(q, selected);
+    const material = q.materialId ? materialById(q.materialId) : null;
+    return `<article class="review-item ${correct ? 'review-item-correct' : selected === undefined ? 'review-item-unanswered' : 'review-item-wrong'}" id="review-${esc(q.id)}"><header class="review-item-header"><div><span class="review-q-number">Question ${position}</span><span class="review-q-part">Part ${q.part}</span></div><span class="review-status">${status}</span></header><h3 class="review-question">${esc(q.prompt)}</h3>${image}<div class="review-answer-summary"><div class="review-answer ${selected !== undefined && !correct ? 'your-answer-wrong' : ''}"><span>Your answer</span><strong>${esc(answerText)}</strong></div><div class="review-answer correct-answer"><span>Correct answer</span><strong>${esc(q.answer)}: ${esc(q.choices[q.answer])}</strong></div></div><div class="review-options">${options}</div><div class="review-explanation"><h4>${correct ? 'Why your answer is correct' : selected === undefined ? 'Correct answer explanation' : 'Why your answer is wrong'}</h4><p>${esc(selectedExplanation)}</p><h4>Why ${esc(q.answer)} is correct</h4><p>${esc(q.review?.correct || q.explanation)}</p></div>${reviewContextMarkup(q, material)}</article>`;
+  }
+
+  function renderResultsPage() {
+    state.view = 'results';
+    const partsMarkup = PARTS.map(part => {
+      const questions = allQuestions().filter(q => q.part === part.id);
+      const partScore = state.result.parts[part.id];
+      return `<section class="review-part" id="review-part-${part.id}"><header class="review-part-header"><div><p class="eyebrow">${part.section}</p><h2>Part ${part.id} — ${esc(part.name)}</h2></div><span>${partScore.correct} / ${partScore.total} correct</span></header><div class="review-list">${questions.map(q => renderQuestionReview(q, allQuestions().indexOf(q) + 1)).join('')}</div></section>`;
+    }).join('');
+    const partLinks = PARTS.map(part => `<a href="#review-part-${part.id}">Part ${part.id}</a>`).join('');
+    app.innerHTML = `<div class="results-page"><div class="exam-topline"><button class="back-link" data-action="home">← Dashboard</button><div class="exam-meta-top"><span class="exam-badge">Practice Test ${state.testNo}</span><button class="btn btn-secondary btn-small" data-action="restart">Start another attempt</button></div></div>${renderResults(state.result)}<nav class="review-jump" aria-label="Jump to a part"><strong>Review all 200 answers</strong><div>${partLinks}</div></nav><p class="review-key">Correct answers are marked green. Your incorrect selection is marked red. Open a script or passage under a question for supporting context.</p>${partsMarkup}</div>`;
+    app.focus({ preventScroll: true });
   }
 
   function scoreQuestionClass(q) {
@@ -177,18 +216,14 @@
       const disabled = state.submitted || (state.mode === 'practice' && state._lockedQuestion === q.id);
       return `<button class="${cls}" data-action="answer" data-q="${esc(q.id)}" data-key="${esc(key)}" ${disabled ? 'disabled' : ''}><span class="choice-key">${esc(key)}</span><span class="choice-text">${text}</span><span class="choice-mark">${mark}</span></button>`;
     }).join('');
-    const qFeedback = examFeedback(q);
     const prevDisabled = state.index <= 0;
     const nextDisabled = state.index >= list.length - 1;
     const partIntro = `<div class="part-intro"><div><strong>Part ${state.part} — ${esc(currentPart().name)}</strong><small>${currentPart().section} · ${currentPart().count} questions</small></div><span class="part-count">Question ${position} of ${list.length}</span></div>`;
-    const timer = isExam() && !state.submitted ? `<div class="timer-bar"><span class="timer-phase">${state.phase} phase · ${state.phase === 'Listening' ? '45-minute allowance' : '75-minute allowance'}</span><div class="timer-values"><div class="timer-cell"><span>Section left</span><strong id="timer-value">${fmtTime(state.remaining)}</strong></div><div class="timer-cell master"><span>Master time left</span><strong id="master-timer">${fmtTime(state.masterRemaining)}</strong></div></div><div class="timer-actions">${state.phase === 'Listening' ? '<button class="btn btn-small btn-secondary" data-action="finish-listening">Continue to Reading</button>' : '<button class="btn btn-small btn-danger" data-action="submit">Submit exam</button>'}</div></div>` : '';
-    const results = state.submitted && state.result ? renderResults(state.result) : '';
-    const submitPractice = state.mode === 'practice' && !state.submitted ? `<div class="submit-row"><span class="submit-hint">Answers are checked as you go. Submit to see your complete score report.</span><button class="btn btn-secondary" data-action="submit">Finish & score</button></div>` : '';
-    const finishExamButton = state.submitted ? `<div class="finish-actions"><button class="btn btn-primary" data-action="home">Back to dashboard</button><button class="btn btn-secondary" data-action="restart">Restart this test</button></div>` : '';
-    app.innerHTML = `<div class="exam-topline"><button class="back-link" data-action="home">← Dashboard</button><div class="exam-meta-top"><span class="exam-badge">Practice Test ${state.testNo}</span><span class="exam-badge ${isExam() ? 'exam-mode' : ''}">${state.mode === 'practice' ? 'Practice mode' : (state.submitted ? 'Exam review' : 'Timed exam')}</span></div></div>
-    ${results}
+    const timer = isExam() && !state.submitted ? `<div class="timer-bar"><span class="timer-phase">${state.phase} phase · ${state.phase === 'Listening' ? '45-minute allowance' : '75-minute allowance'}</span><div class="timer-values"><div class="timer-cell"><span>Section left</span><strong id="timer-value">${fmtTime(state.remaining)}</strong></div><div class="timer-cell master"><span>Master time left</span><strong id="master-timer">${fmtTime(state.masterRemaining)}</strong></div></div><div class="timer-actions">${state.phase === 'Listening' ? '<button class="btn btn-small btn-secondary" data-action="finish-listening">Continue to Reading</button>' : '<button class="btn btn-small btn-danger" data-action="submit">Submit test</button>'}</div></div>` : '';
+    const submitPractice = state.mode === 'practice' && !state.submitted ? `<div class="submit-row"><span class="submit-hint">Responses are saved privately. No answers are revealed until you submit.</span><button class="btn btn-secondary" data-action="submit">Submit test</button></div>` : '';
+    app.innerHTML = `<div class="exam-topline"><button class="back-link" data-action="home">← Dashboard</button><div class="exam-meta-top"><span class="exam-badge">Practice Test ${state.testNo}</span><span class="exam-badge ${isExam() ? 'exam-mode' : ''}">${state.mode === 'practice' ? 'Practice mode' : 'Timed exam'}</span></div></div>
     <div class="exam-layout"><aside class="exam-sidebar"><h2 class="sidebar-title">Question map <span>${state.submitted ? 'Review' : (isExam() ? state.phase : 'All parts')}</span></h2><nav class="part-list" aria-label="Test parts">${tabs}</nav><p class="question-map-label">Part ${state.part} · ${partQuestions.length} questions</p><div class="question-map" aria-label="Jump to question">${map}</div><div class="sidebar-progress"><div class="progress-label"><span>Answered</span><span>${totalAnswered} / ${totalVisible}</span></div><div class="progress-track"><div class="progress-fill" style="width:${Math.min(100,totalAnswered/Math.max(totalVisible,1)*100)}%"></div></div></div></aside>
-    <section class="main-panel" aria-label="Question ${position}">${timer}${partIntro}<article class="question-card"><div class="question-kicker"><span>Question ${esc(q.id.split('-').slice(2).join('-'))}</span><span class="${state.mode === 'practice' && state.answers[q.id] ? 'practice-state' : (state.submitted ? 'review-state' : '')}">${state.submitted ? 'Answer review' : (state.mode === 'practice' && state.answers[q.id] ? 'Checked' : (isExam() ? 'Exam conditions' : 'Choose one answer'))}</span></div>${renderMaterial(q,material)}<h1 class="question-prompt">${esc(q.prompt)}</h1><div class="choices" role="group" aria-label="Answer choices">${choices}</div>${qFeedback}<div class="question-nav"><div class="nav-left"><button class="btn btn-secondary btn-small" data-action="prev" ${prevDisabled ? 'disabled' : ''}>← Previous</button><span class="nav-progress">${position} / ${list.length}</span></div><div class="nav-right"><button class="btn btn-primary btn-small" data-action="next" ${nextDisabled ? 'disabled' : ''}>Next →</button></div></div>${submitPractice}${finishExamButton}</article></section></div>`;
+    <section class="main-panel" aria-label="Question ${position}">${timer}${partIntro}<article class="question-card"><div class="question-kicker"><span>Question ${esc(q.id.split('-').slice(2).join('-'))}</span></div>${renderMaterial(q,material)}<h1 class="question-prompt">${esc(q.prompt)}</h1><div class="choices" role="group" aria-label="Answer choices">${choices}</div><div class="question-nav"><div class="nav-left"><button class="btn btn-secondary btn-small" data-action="prev" ${prevDisabled ? 'disabled' : ''}>← Previous</button><span class="nav-progress">${position} / ${list.length}</span></div><div class="nav-right"><button class="btn btn-primary btn-small" data-action="next" ${nextDisabled ? 'disabled' : ''}>Next →</button></div></div>${submitPractice}</article></section></div>`;
     if (isExam() && !state.submitted) updateTimerDisplay();
   }
 
@@ -230,11 +265,11 @@
   function submitAttempt() {
     if (state.submitted || !state.test) return;
     clearInterval(state.interval); state.interval = null;
+    window.speechSynthesis?.cancel(); state.activeAudioToken = ''; state.audioState = 'idle';
     state.submitted = true; state.result = calculateResult(); state.part = 1; state.index = 0; state.transcriptOpen = false;
     const entry = { testNo: state.testNo, mode: state.mode, date: new Date().toISOString(), ...state.result };
     writeHistory(entry);
-    renderExam();
-    app.focus({ preventScroll: true });
+    renderResultsPage();
   }
   function startReading() {
     if (state.submitted || state.phase !== 'Listening') return;
@@ -267,14 +302,22 @@
     if (!text) return;
     if (!('speechSynthesis' in window)) { alert('Speech playback is not available in this browser.'); return; }
     const token = audioToken(q);
-    if (isExam() && !state.submitted) state.played.add(token);
+    if (state.activeAudioToken === token && state.audioState === 'playing') {
+      window.speechSynthesis.pause(); state.audioState = 'paused'; renderExam(); return;
+    }
+    if (state.activeAudioToken === token && state.audioState === 'paused') {
+      window.speechSynthesis.resume(); state.audioState = 'playing'; renderExam(); return;
+    }
+    if (isExam() && !state.submitted && state.played.has(token)) return;
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'en-US'; utter.rate = .92; utter.pitch = 1;
     const voices = window.speechSynthesis.getVoices();
     const preferred = voices.find(v => /^en-US/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang));
     if (preferred) utter.voice = preferred;
-    utter.onend = () => { if (state.view === 'exam') renderExam(); };
+    state.activeAudioToken = token; state.audioState = 'playing'; state.played.add(token);
+    const finishAudio = () => { if (state.activeAudioToken === token) { state.activeAudioToken = ''; state.audioState = 'idle'; if (state.view === 'exam') renderExam(); } };
+    utter.onend = finishAudio; utter.onerror = finishAudio;
     window.speechSynthesis.speak(utter);
     renderExam();
   }
