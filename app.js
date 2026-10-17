@@ -12,6 +12,7 @@
   ];
   const HISTORY_KEY = 'clearline.toeic.history.v1';
   const app = document.getElementById('app-root');
+  const APP_BASE = new URL('.', document.currentScript?.src || document.baseURI);
   let state = { view: 'home', test: null, testNo: 1, mode: 'practice', phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), result: null };
 
   const esc = (value = '') => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -71,8 +72,9 @@
     clearInterval(state.interval); state.interval = null;
     state.view = 'loading'; app.innerHTML = `<section class="loading-state"><div class="loader"></div><p>Loading Practice Test ${testNo}…</p></section>`;
     try {
-      const response = await fetch(`data/test${testNo}.json`);
-      if (!response.ok) throw new Error(`Test file returned ${response.status}`);
+      const dataUrl = new URL(`data/test${testNo}.json`, APP_BASE);
+      const response = await fetch(dataUrl.href);
+      if (!response.ok) throw new Error(`Test file returned ${response.status} (${dataUrl.pathname})`);
       const test = await response.json();
       if (!Array.isArray(test.questions) || test.questions.length !== 200) throw new Error('The selected dataset does not contain 200 questions.');
       state = { ...state, view: 'start', test, testNo, mode, phase: 'Listening', part: 1, index: 0, answers: {}, submitted: false, transcriptOpen: false, remaining: 2700, masterRemaining: 7200, interval: null, played: new Set(), result: null };
