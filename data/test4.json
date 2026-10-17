@@ -1,0 +1,3367 @@
+{
+  "id": "test4",
+  "title": "Practice Test 4",
+  "description": "Original workplace-English practice set for Brightwell Systems scenarios.",
+  "format": {
+    "listeningMinutes": 45,
+    "readingMinutes": 75,
+    "questionCount": 200
+  },
+  "materials": [
+    {
+      "id": "t4-p3-1",
+      "type": "listening",
+      "title": "A project deadline",
+      "transcript": "W: The draft brochure needs one more review before we send it to the printer.\nM: I can check the product specifications this morning.\nW: Please mark any changes by noon so I can submit the final file today.\nM: I will send you my notes before the lunch break.",
+      "audioText": "W: The draft brochure needs one more review before we send it to the printer.\nM: I can check the product specifications this morning.\nW: Please mark any changes by noon so I can submit the final file today.\nM: I will send you my notes before the lunch break."
+    },
+    {
+      "id": "t4-p3-2",
+      "type": "listening",
+      "title": "A train delay",
+      "transcript": "M: My train is running twenty minutes behind, so I will not reach the client site by nine.\nW: I will move the pickup to the later arrival. The driver is still at the station.\nM: Could you also let the client know I will be late?\nW: Of course. I will send a message now.",
+      "audioText": "M: My train is running twenty minutes behind, so I will not reach the client site by nine.\nW: I will move the pickup to the later arrival. The driver is still at the station.\nM: Could you also let the client know I will be late?\nW: Of course. I will send a message now."
+    },
+    {
+      "id": "t4-p3-3",
+      "type": "listening",
+      "title": "A workshop registration",
+      "transcript": "W: Three people from our branch want to attend the safety workshop, but registration closed yesterday.\nM: The organizer told me there are two seats left. I can ask whether a third can be added.\nW: Please do. If not, we can send two this month and one next time.\nM: I will call the training office after this meeting.",
+      "audioText": "W: Three people from our branch want to attend the safety workshop, but registration closed yesterday.\nM: The organizer told me there are two seats left. I can ask whether a third can be added.\nW: Please do. If not, we can send two this month and one next time.\nM: I will call the training office after this meeting."
+    },
+    {
+      "id": "t4-p3-4",
+      "type": "listening",
+      "title": "A repair request",
+      "transcript": "M: The copier on the third floor is leaving dark streaks on every page.\nW: I submitted a service request this morning. A technician should arrive around one.\nM: Until then, can we use the machine near reception?\nW: Yes, but bring your own paper; that tray is almost empty.",
+      "audioText": "M: The copier on the third floor is leaving dark streaks on every page.\nW: I submitted a service request this morning. A technician should arrive around one.\nM: Until then, can we use the machine near reception?\nW: Yes, but bring your own paper; that tray is almost empty."
+    },
+    {
+      "id": "t4-p3-5",
+      "type": "listening",
+      "title": "An updated travel plan",
+      "transcript": "W: The hotel confirmed our reservation, but breakfast is not included in the quoted rate.\nM: That is fine. The client meeting starts early, so let us add breakfast for both rooms.\nW: I will ask the hotel to update the booking and send a new confirmation.\nM: Please copy the travel coordinator on that email.",
+      "audioText": "W: The hotel confirmed our reservation, but breakfast is not included in the quoted rate.\nM: That is fine. The client meeting starts early, so let us add breakfast for both rooms.\nW: I will ask the hotel to update the booking and send a new confirmation.\nM: Please copy the travel coordinator on that email."
+    },
+    {
+      "id": "t4-p3-6",
+      "type": "listening",
+      "title": "A revised invoice",
+      "transcript": "M: The total on the office furniture invoice is higher than the approved quote.\nW: One delivery fee was entered twice. The supplier has corrected the document.\nM: Should I submit the replacement to accounts payable?\nW: Yes, and attach the original approval so they can compare the amounts.",
+      "audioText": "M: The total on the office furniture invoice is higher than the approved quote.\nW: One delivery fee was entered twice. The supplier has corrected the document.\nM: Should I submit the replacement to accounts payable?\nW: Yes, and attach the original approval so they can compare the amounts."
+    },
+    {
+      "id": "t4-p3-7",
+      "type": "listening",
+      "title": "An event poster",
+      "transcript": "W: The career fair poster says the doors open at eight, but the venue admits exhibitors at eight thirty.\nM: I will change the poster before the printer collects the files.\nW: Please add the registration link. The QR code points to last year’s page.\nM: I will replace it and send you a proof this afternoon.",
+      "audioText": "W: The career fair poster says the doors open at eight, but the venue admits exhibitors at eight thirty.\nM: I will change the poster before the printer collects the files.\nW: Please add the registration link. The QR code points to last year’s page.\nM: I will replace it and send you a proof this afternoon."
+    },
+    {
+      "id": "t4-p3-8",
+      "type": "listening",
+      "title": "A new employee’s first day",
+      "transcript": "M: The new analyst starts tomorrow. Have we arranged a desk and computer?\nW: The desk is ready, but IT needs her account request before configuring the laptop.\nM: I filled out the form yesterday. I will forward the confirmation now.\nW: Great. I will leave her building pass with reception.",
+      "audioText": "M: The new analyst starts tomorrow. Have we arranged a desk and computer?\nW: The desk is ready, but IT needs her account request before configuring the laptop.\nM: I filled out the form yesterday. I will forward the confirmation now.\nW: Great. I will leave her building pass with reception."
+    },
+    {
+      "id": "t4-p3-9",
+      "type": "listening",
+      "title": "A client presentation",
+      "transcript": "W: The client asked us to include a cost comparison in tomorrow’s presentation.\nM: I have the figures from the last two quarters. Do you want a chart or a table?\nW: A chart will be easier to read on the large display. Please send me the file by four.\nM: I will add it after the afternoon call.",
+      "audioText": "W: The client asked us to include a cost comparison in tomorrow’s presentation.\nM: I have the figures from the last two quarters. Do you want a chart or a table?\nW: A chart will be easier to read on the large display. Please send me the file by four.\nM: I will add it after the afternoon call."
+    },
+    {
+      "id": "t4-p3-10",
+      "type": "listening",
+      "title": "A building inspection",
+      "transcript": "M: The annual inspection is scheduled for Thursday, but the east stairwell is being painted then.\nW: The inspector can use the west entrance instead. I will ask facilities to put up signs.\nM: Should we move the inspection to another day?\nW: No, the inspector confirmed the alternate route is fine.",
+      "audioText": "M: The annual inspection is scheduled for Thursday, but the east stairwell is being painted then.\nW: The inspector can use the west entrance instead. I will ask facilities to put up signs.\nM: Should we move the inspection to another day?\nW: No, the inspector confirmed the alternate route is fine."
+    },
+    {
+      "id": "t4-p3-11",
+      "type": "listening",
+      "title": "A delayed supply order",
+      "transcript": "M: Did the replacement labels arrive? We need them for this afternoon’s packing run.\nW: Not yet. The supplier sent the cartons to our former warehouse address.\nM: Can they redirect them today?\nW: They can bring them to the new site by Tuesday morning. I will alert the packing team.",
+      "audioText": "M: Did the replacement labels arrive? We need them for this afternoon’s packing run.\nW: Not yet. The supplier sent the cartons to our former warehouse address.\nM: Can they redirect them today?\nW: They can bring them to the new site by Tuesday morning. I will alert the packing team."
+    },
+    {
+      "id": "t4-p3-12",
+      "type": "listening",
+      "title": "A room booking change",
+      "transcript": "W: The client review is still set for Thursday, but the main conference room is double-booked.\nM: Could we use the training room instead? It has the video link we need.\nW: Yes. I will send the guests a revised room number.\nM: Thanks. I will test the screen before they arrive.",
+      "audioText": "W: The client review is still set for Thursday, but the main conference room is double-booked.\nM: Could we use the training room instead? It has the video link we need.\nW: Yes. I will send the guests a revised room number.\nM: Thanks. I will test the screen before they arrive."
+    },
+    {
+      "id": "t4-p3-13",
+      "type": "listening",
+      "title": "A customer visit",
+      "transcript": "M: The visitor from Crestline is here, but her badge lists the wrong department.\nW: I will contact reception and have a corrected one made.\nM: She is meeting the design team on the fourth floor.\nW: I will ask her to wait in the lounge while they print it.",
+      "audioText": "M: The visitor from Crestline is here, but her badge lists the wrong department.\nW: I will contact reception and have a corrected one made.\nM: She is meeting the design team on the fourth floor.\nW: I will ask her to wait in the lounge while they print it."
+    },
+    {
+      "id": "t4-p4-1",
+      "type": "listening",
+      "title": "Transit update",
+      "transcript": "Passengers on the Green Line should note that trains will bypass Central Square this evening because crews are repairing the platform lights. Use the bus stop on Pine Street for service to downtown. The repair is expected to finish by 10 p.m. Regular service will resume tomorrow morning.",
+      "audioText": "Passengers on the Green Line should note that trains will bypass Central Square this evening because crews are repairing the platform lights. Use the bus stop on Pine Street for service to downtown. The repair is expected to finish by 10 p.m. Regular service will resume tomorrow morning."
+    },
+    {
+      "id": "t4-p4-2",
+      "type": "listening",
+      "title": "Product demonstration",
+      "transcript": "Welcome to today’s demonstration of the new compact scanner. It can upload receipts directly to the accounting portal and store up to five hundred pages locally. After the session, representatives will be available at the display table to answer questions. A printed setup guide is included with each sample unit.",
+      "audioText": "Welcome to today’s demonstration of the new compact scanner. It can upload receipts directly to the accounting portal and store up to five hundred pages locally. After the session, representatives will be available at the display table to answer questions. A printed setup guide is included with each sample unit."
+    },
+    {
+      "id": "t4-p4-3",
+      "type": "listening",
+      "title": "Store opening update",
+      "transcript": "Thank you for joining the opening of our new Harbor Avenue branch. The doors will open to customers at ten, one hour later than originally announced, because the final safety inspection is still under way. Staff members should report to the side entrance at 8:30. Refreshments for invited guests are available in the upstairs lounge.",
+      "audioText": "Thank you for joining the opening of our new Harbor Avenue branch. The doors will open to customers at ten, one hour later than originally announced, because the final safety inspection is still under way. Staff members should report to the side entrance at 8:30. Refreshments for invited guests are available in the upstairs lounge."
+    },
+    {
+      "id": "t4-p4-4",
+      "type": "listening",
+      "title": "Policy reminder",
+      "transcript": "All expense reports for the current quarter must be submitted through the employee portal by the 18th. Paper forms will no longer be accepted after that date. If you need to correct a report, reopen it in the portal before submitting. The finance help desk will hold a question session on Friday at 2 p.m.",
+      "audioText": "All expense reports for the current quarter must be submitted through the employee portal by the 18th. Paper forms will no longer be accepted after that date. If you need to correct a report, reopen it in the portal before submitting. The finance help desk will hold a question session on Friday at 2 p.m."
+    },
+    {
+      "id": "t4-p4-5",
+      "type": "listening",
+      "title": "Delivery notice",
+      "transcript": "A delivery of replacement chairs is scheduled to arrive at the north loading bay between 1 and 2 p.m. Please keep that area clear and have a staff member available to sign the receipt. The old chairs will be collected on the same truck. Contact building services if the driver has not arrived by 2:15.",
+      "audioText": "A delivery of replacement chairs is scheduled to arrive at the north loading bay between 1 and 2 p.m. Please keep that area clear and have a staff member available to sign the receipt. The old chairs will be collected on the same truck. Contact building services if the driver has not arrived by 2:15."
+    },
+    {
+      "id": "t4-p4-6",
+      "type": "listening",
+      "title": "Career information session",
+      "transcript": "The personnel office will host an information session for employees interested in the supervisor development program. The session is next Tuesday at 4 p.m. in the Cedar Room. Applicants should bring a current résumé; no registration is necessary. Program interviews will be arranged individually during the following week.",
+      "audioText": "The personnel office will host an information session for employees interested in the supervisor development program. The session is next Tuesday at 4 p.m. in the Cedar Room. Applicants should bring a current résumé; no registration is necessary. Program interviews will be arranged individually during the following week."
+    },
+    {
+      "id": "t4-p4-7",
+      "type": "listening",
+      "title": "Conference reminder",
+      "transcript": "The regional design conference begins tomorrow at the Riverside Center. Check-in opens at 8:00 a.m. on the second floor, where participants can collect name badges and updated session schedules. The opening keynote starts at 9:00 in Hall B. Wireless access details are printed on the back of each badge.",
+      "audioText": "The regional design conference begins tomorrow at the Riverside Center. Check-in opens at 8:00 a.m. on the second floor, where participants can collect name badges and updated session schedules. The opening keynote starts at 9:00 in Hall B. Wireless access details are printed on the back of each badge."
+    },
+    {
+      "id": "t4-p4-8",
+      "type": "listening",
+      "title": "Maintenance announcement",
+      "transcript": "Attention, employees. The fifth-floor kitchen will be unavailable on Wednesday morning while the plumbing team replaces a sink. Please use the kitchen beside the main lobby until noon. Facilities will post a notice when the work is complete. If you have food in the refrigerator, label it before leaving today.",
+      "audioText": "Attention, employees. The fifth-floor kitchen will be unavailable on Wednesday morning while the plumbing team replaces a sink. Please use the kitchen beside the main lobby until noon. Facilities will post a notice when the work is complete. If you have food in the refrigerator, label it before leaving today."
+    },
+    {
+      "id": "t4-p4-9",
+      "type": "listening",
+      "title": "Telephone message",
+      "transcript": "Hello, this is Carla from Westbridge Travel. I am calling about your reservation for the client visit. The return train you selected is fully booked, but I have held a seat on the 6:20 service. Please call me before three this afternoon if you would prefer a later train. Your outbound ticket is unchanged.",
+      "audioText": "Hello, this is Carla from Westbridge Travel. I am calling about your reservation for the client visit. The return train you selected is fully booked, but I have held a seat on the 6:20 service. Please call me before three this afternoon if you would prefer a later train. Your outbound ticket is unchanged."
+    },
+    {
+      "id": "t4-p4-10",
+      "type": "listening",
+      "title": "Staff briefing",
+      "transcript": "Good morning, team. Our customer service workshop will begin at 9:15 in Room 204, not in the auditorium as listed on the first schedule. Please bring one example of a difficult customer question. The facilitator will distribute the new response guide at the end of the session.",
+      "audioText": "Good morning, team. Our customer service workshop will begin at 9:15 in Room 204, not in the auditorium as listed on the first schedule. Please bring one example of a difficult customer question. The facilitator will distribute the new response guide at the end of the session."
+    },
+    {
+      "id": "t4-p6-1",
+      "type": "reading",
+      "title": "Building access reminder",
+      "documents": [
+        {
+          "label": "Building access reminder",
+          "text": "REMINDER — Security Office\nTemporary access cards are available while the entrance system is upgraded.\n\nCards may be collected ____ (1) ____ the security desk.\nEach card must be returned ____ (2) ____ the end of the workday.\nPlease report a lost card ____ (3) ____.\nReplacement cards are available ____ (4) ____ a small fee."
+        }
+      ]
+    },
+    {
+      "id": "t4-p6-2",
+      "type": "reading",
+      "title": "New catalog release",
+      "documents": [
+        {
+          "label": "New catalog release",
+          "text": "PRODUCT UPDATE — Sales Support\nThe revised office furniture catalog is available in digital and printed formats.\n\nThe digital edition can be downloaded ____ (1) ____ the staff portal.\nPrinted copies will be sent ____ (2) ____ request.\nThe catalog includes ____ (3) ____ descriptions of each model.\nPrices are subject to change ____ (4) ____ notice."
+        }
+      ]
+    },
+    {
+      "id": "t4-p6-3",
+      "type": "reading",
+      "title": "Client feedback survey",
+      "documents": [
+        {
+          "label": "Client feedback survey",
+          "text": "EMAIL — Quality Team\nClients are invited to complete a short survey about recent service.\n\nThe survey should take ____ (1) ____ five minutes to complete.\nResponses are collected ____ (2) ____ and will not be shared by name.\nThe results will help identify areas ____ (3) ____ improvement.\nThank you ____ (4) ____ taking the time to respond."
+        }
+      ]
+    },
+    {
+      "id": "t4-p6-4",
+      "type": "reading",
+      "title": "Parking-area notice",
+      "documents": [
+        {
+          "label": "Parking-area notice",
+          "text": "NOTICE — Building Management\nThe west parking lot will be closed briefly for line painting this weekend.\n\nThe work is scheduled ____ (1) ____ Saturday morning.\nDrivers should use the east lot ____ (2) ____ painting is complete.\nTemporary signs will ____ (3) ____ visitors to the open entrance.\nWe appreciate your ____ (4) ____."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-1",
+      "type": "reading",
+      "title": "Schedule update",
+      "documents": [
+        {
+          "label": "Schedule update",
+          "text": "MEMO — Operations\nTo: All project staff\nThe weekly planning meeting has moved from Thursday at 11:20 a.m. to Tuesday at 3:15 p.m.. The change is necessary because the client review now occupies the Cedar Room. Please bring the latest project timeline. The meeting will still take place in Room 204."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-2",
+      "type": "reading",
+      "title": "Recruitment notice",
+      "documents": [
+        {
+          "label": "Recruitment notice",
+          "text": "JOB NOTICE — Brightwell Systems\nWe are hiring a customer support coordinator for a software support provider. Applicants need at least two years of client-service experience and should be comfortable with scheduling software. Send a résumé and cover letter to careers@example.org by September 9. Interviews will take place in the second half of the month."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-3",
+      "type": "reading",
+      "title": "Service announcement",
+      "documents": [
+        {
+          "label": "Service announcement",
+          "text": "CUSTOMER NOTICE\nThe downtown service counter will open at 10 a.m. on Thursday because staff are attending a safety briefing. Online orders can still be placed as usual. Customers collecting a reserved item may use the west entrance after 9:30. Normal opening hours resume the following day."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-4",
+      "type": "reading",
+      "title": "Invoice reminder",
+      "documents": [
+        {
+          "label": "Invoice reminder",
+          "text": "BILLING REMINDER\nInvoice 4187 for the quarterly maintenance plan is due on September 9. Payments may be made by bank transfer or company card through the secure client portal. Include the invoice number with your payment. Questions about the service plan should be directed to the account team, not the billing desk."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-5",
+      "type": "reading",
+      "title": "Event flyer",
+      "documents": [
+        {
+          "label": "Event flyer",
+          "text": "COMMUNITY DESIGN FORUM\nJoin local designers for a discussion of accessible public spaces on September 9 at 6 p.m. The event will be held in the Harbor Gallery and is free to registered participants. A networking reception will follow. Registration closes two days before the event."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-6",
+      "type": "reading",
+      "title": "Facilities memo",
+      "documents": [
+        {
+          "label": "Facilities memo",
+          "text": "FACILITIES MEMO\nWindow cleaning is scheduled for the west side of the office building on Thursday. Keep desks near the windows clear of personal items by 8 a.m. The work will begin on the upper floors and move downward. Employees may use the east-side meeting rooms during the cleaning."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-7",
+      "type": "reading",
+      "title": "Order confirmation",
+      "documents": [
+        {
+          "label": "Order confirmation",
+          "text": "ORDER CONFIRMATION\nYour order for 24 adjustable desk lamps has been processed. The items will be delivered to the Lakeside office on September 15. Report any damaged units within five business days. The invoice will be sent separately by email."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-8",
+      "type": "reading",
+      "title": "Travel itinerary",
+      "documents": [
+        {
+          "label": "Travel itinerary",
+          "text": "TRAVEL ITINERARY — CLIENT SERVICES\nDepart Union Station at 7:40 a.m. on Thursday; the train arrives in Brookfield at 9:05. A taxi voucher is attached for the ride to the client’s office. The return service leaves at 5:20 p.m. from Platform 3. Keep the receipt for additional local travel."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-9",
+      "type": "reading",
+      "title": "Policy update",
+      "documents": [
+        {
+          "label": "Policy update",
+          "text": "EMPLOYEE POLICY UPDATE\nBeginning September 9, requests for remote-work equipment must be submitted through the staff portal. Managers should review requests within three business days. Existing equipment does not need to be returned unless an employee changes departments. A guide is available under Human Resources."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-single-10",
+      "type": "reading",
+      "title": "Customer web chat",
+      "documents": [
+        {
+          "label": "Customer web chat",
+          "text": "SUPPORT CHAT\nCustomer: My replacement keyboard has not arrived.\nAgent: The parcel was delayed at the regional depot. It is now scheduled for delivery on September 15.\nCustomer: Will I need to pay another shipping fee?\nAgent: No. The original charge covers the replacement. You will receive a tracking update this evening."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-double-1",
+      "type": "reading",
+      "title": "Related documents",
+      "documents": [
+        {
+          "label": "Email from Events",
+          "text": "To: Sofia\nFrom: Events Office\nSubject: Spring Supplier Forum\nThe forum will be held at the Riverside Center on September 9. Registration opens at 8:30 a.m. Please bring your printed confirmation. A vegetarian lunch can be requested by replying before September 15."
+        },
+        {
+          "label": "Reply from attendee",
+          "text": "To: Events Office\nFrom: Sofia\nI have registered for the supplier forum and will bring my confirmation. Please reserve a vegetarian lunch for me. I will arrive by 8:45 and attend the 10 a.m. session on sustainable packaging."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-double-2",
+      "type": "reading",
+      "title": "Related documents",
+      "documents": [
+        {
+          "label": "Supplier quotation",
+          "text": "Quotation Q-284 — Brightwell Systems\nA set of 12 adjustable work lamps costs $480. Delivery to the central office costs $35. The quotation is valid through September 15. Orders of 20 sets or more qualify for free delivery. Contact sales to confirm stock."
+        },
+        {
+          "label": "Purchasing email",
+          "text": "To: Sales\nFrom: Daniel, Purchasing\nOur department needs 24 sets for the new training rooms. Please confirm that all units are available and that the free-delivery rate applies. We would like delivery to the west entrance on September 9. The purchase order will follow after confirmation."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-triple-1",
+      "type": "reading",
+      "title": "Three related documents",
+      "documents": [
+        {
+          "label": "Email",
+          "text": "To: Project team\nFrom: Sofia\nSubject: Review meeting\nThe review has moved to Tuesday at 3:15 p.m.. Please read the draft report before arriving."
+        },
+        {
+          "label": "Calendar notice",
+          "text": "Tuesday, 3:15 p.m. — Cedar Room, second floor. Attendees: project team and regional manager. Bring the report and a list of open questions."
+        },
+        {
+          "label": "Team chat",
+          "text": "Daniel: I can attend at 3:15 p.m., but I will be coming from a client visit.\nSofia: That is fine. The manager said we can start with the report summary.\nDaniel: I will send my questions to the group before lunch."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-triple-2",
+      "type": "reading",
+      "title": "Three related documents",
+      "documents": [
+        {
+          "label": "Order status email",
+          "text": "To: Leah, Facilities\nFrom: Supply Desk\nReplacement chairs are scheduled to arrive on September 9. The carrier requires a signature. The order contains 18 chairs for the second-floor training area."
+        },
+        {
+          "label": "Delivery schedule",
+          "text": "North loading bay — September 9, 1:00–2:00 p.m. A facilities representative must keep the bay clear and sign the receipt. Old chairs will be removed on the same visit."
+        },
+        {
+          "label": "Message to facilities",
+          "text": "Leah: I can be at the north bay until 1:30, but I have a building inspection after that.\nMiles: I will cover the bay from 1:30 onward. Please leave the floor plan and receipt clipboard at reception."
+        }
+      ]
+    },
+    {
+      "id": "t4-p7-triple-3",
+      "type": "reading",
+      "title": "Three related documents",
+      "documents": [
+        {
+          "label": "Workshop invitation",
+          "text": "The customer writing workshop will take place at the Learning Center on September 15. The morning session begins at 9:00. Registered staff receive a workbook. Notify Learning Services of dietary requirements by September 9."
+        },
+        {
+          "label": "Room schedule",
+          "text": "9:00–10:30 — Writing clear service updates, Room 3. 10:45–12:00 — Editing practice, Room 3. Lunch is served in the adjoining lounge."
+        },
+        {
+          "label": "Registration message",
+          "text": "Sofia: I registered for the workshop and requested a vegetarian lunch. Could I join editing practice if I arrive after the first session?\nLearning Services: Yes. Please check in at the front desk before entering Room 3. We will leave a workbook there for you."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "t4-p1-1",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A visitor is waiting beside a reception desk.",
+        "B": "A woman is carrying a plant into an office.",
+        "C": "A worker is assembling a chair in a workshop.",
+        "D": "A technician is cleaning a camera lens."
+      },
+      "answer": "A",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-01.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A visitor is waiting beside a reception desk. Option B: A woman is carrying a plant into an office. Option C: A worker is assembling a chair in a workshop. Option D: A technician is cleaning a camera lens."
+    },
+    {
+      "id": "t4-p1-2",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A woman is carrying a box toward a storage room.",
+        "B": "A worker is polishing a metal railing.",
+        "C": "A man is checking a chart on a computer.",
+        "D": "Several people are taking seats in a theater."
+      },
+      "answer": "A",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-02.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A woman is carrying a box toward a storage room. Option B: A worker is polishing a metal railing. Option C: A man is checking a chart on a computer. Option D: Several people are taking seats in a theater."
+    },
+    {
+      "id": "t4-p1-3",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A delivery driver is opening a garage door.",
+        "B": "A customer is trying on a jacket.",
+        "C": "A clerk is arranging cups on a table before a meeting.",
+        "D": "A technician is replacing a keyboard."
+      },
+      "answer": "C",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-03.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A delivery driver is opening a garage door. Option B: A customer is trying on a jacket. Option C: A clerk is arranging cups on a table before a meeting. Option D: A technician is replacing a keyboard."
+    },
+    {
+      "id": "t4-p1-4",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A courier is riding a bicycle along a street.",
+        "B": "A man is pushing a lawn mower across a field.",
+        "C": "Two employees are looking at a schedule together.",
+        "D": "A woman is washing dishes in a kitchen."
+      },
+      "answer": "C",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-04.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A courier is riding a bicycle along a street. Option B: A man is pushing a lawn mower across a field. Option C: Two employees are looking at a schedule together. Option D: A woman is washing dishes in a kitchen."
+    },
+    {
+      "id": "t4-p1-5",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A woman is operating a sewing machine.",
+        "B": "A customer is selecting fruit at a market.",
+        "C": "A man is speaking on a stage under a spotlight.",
+        "D": "A worker is moving a potted plant away from a doorway."
+      },
+      "answer": "D",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-05.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A woman is operating a sewing machine. Option B: A customer is selecting fruit at a market. Option C: A man is speaking on a stage under a spotlight. Option D: A worker is moving a potted plant away from a doorway."
+    },
+    {
+      "id": "t4-p1-6",
+      "part": 1,
+      "section": "Listening",
+      "prompt": "Look at the photograph. Which statement best describes it?",
+      "choices": {
+        "A": "A man is hanging curtains in a bedroom.",
+        "B": "A woman is reading a newspaper on a bench.",
+        "C": "A visitor is ordering a drink at a café.",
+        "D": "A technician is checking equipment on a workbench."
+      },
+      "answer": "D",
+      "explanation": "The scene shows the action described in the correct statement.",
+      "image": "assets/test4/photo-06.svg",
+      "audioText": "Which statement best describes the photograph? Option A: A man is hanging curtains in a bedroom. Option B: A woman is reading a newspaper on a bench. Option C: A visitor is ordering a drink at a café. Option D: A technician is checking equipment on a workbench."
+    },
+    {
+      "id": "t4-p2-1",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Did the supplier confirm the delivery date?",
+      "choices": {
+        "A": "I prefer the smaller size.",
+        "B": "The delivery truck is blue.",
+        "C": "They sent a confirmation this morning."
+      },
+      "answer": "C",
+      "explanation": "The response answers the confirmation question.",
+      "audioText": "Did the supplier confirm the delivery date? Option A: I prefer the smaller size. Option B: The delivery truck is blue. Option C: They sent a confirmation this morning."
+    },
+    {
+      "id": "t4-p2-2",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Which proposal did the committee approve?",
+      "choices": {
+        "A": "The one with the shorter installation schedule.",
+        "B": "The committee meets monthly.",
+        "C": "Before the budget review."
+      },
+      "answer": "A",
+      "explanation": "The reply identifies which proposal was selected.",
+      "audioText": "Which proposal did the committee approve? Option A: The one with the shorter installation schedule. Option B: The committee meets monthly. Option C: Before the budget review."
+    },
+    {
+      "id": "t4-p2-3",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Could the presentation be moved to Friday?",
+      "choices": {
+        "A": "The screen is too bright.",
+        "B": "That works for me; I will update the calendar.",
+        "C": "The Friday shipment is late."
+      },
+      "answer": "B",
+      "explanation": "The response agrees and states a related next step.",
+      "audioText": "Could the presentation be moved to Friday? Option A: The screen is too bright. Option B: That works for me; I will update the calendar. Option C: The Friday shipment is late."
+    },
+    {
+      "id": "t4-p2-4",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Why don’t we review the figures before lunch?",
+      "choices": {
+        "A": "Lunch was served promptly.",
+        "B": "Good idea; I have the latest spreadsheet.",
+        "C": "At the downtown branch."
+      },
+      "answer": "B",
+      "explanation": "The reply accepts a suggestion.",
+      "audioText": "Why don’t we review the figures before lunch? Option A: Lunch was served promptly. Option B: Good idea; I have the latest spreadsheet. Option C: At the downtown branch."
+    },
+    {
+      "id": "t4-p2-5",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "How did you hear about the vacancy?",
+      "choices": {
+        "A": "A former colleague told me about it.",
+        "B": "I can start at nine.",
+        "C": "The office is on the fifth floor."
+      },
+      "answer": "A",
+      "explanation": "The response explains the source of the information.",
+      "audioText": "How did you hear about the vacancy? Option A: A former colleague told me about it. Option B: I can start at nine. Option C: The office is on the fifth floor."
+    },
+    {
+      "id": "t4-p2-6",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Is the copy machine available now?",
+      "choices": {
+        "A": "In the supply cabinet.",
+        "B": "The copies are double-sided.",
+        "C": "Yes, the technician has finished testing it."
+      },
+      "answer": "C",
+      "explanation": "The answer confirms availability and explains why.",
+      "audioText": "Is the copy machine available now? Option A: In the supply cabinet. Option B: The copies are double-sided. Option C: Yes, the technician has finished testing it."
+    },
+    {
+      "id": "t4-p2-7",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Who should approve the travel expenses?",
+      "choices": {
+        "A": "By express mail.",
+        "B": "The trip lasted three days.",
+        "C": "Please forward them to the finance director."
+      },
+      "answer": "C",
+      "explanation": "The answer identifies the responsible office.",
+      "audioText": "Who should approve the travel expenses? Option A: By express mail. Option B: The trip lasted three days. Option C: Please forward them to the finance director."
+    },
+    {
+      "id": "t4-p2-8",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "When are the new safety signs being installed?",
+      "choices": {
+        "A": "They are made of metal.",
+        "B": "The maintenance team is scheduled for Tuesday.",
+        "C": "Near the parking garage."
+      },
+      "answer": "B",
+      "explanation": "The response identifies the scheduled day.",
+      "audioText": "When are the new safety signs being installed? Option A: They are made of metal. Option B: The maintenance team is scheduled for Tuesday. Option C: Near the parking garage."
+    },
+    {
+      "id": "t4-p2-9",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Would you mind closing the window?",
+      "choices": {
+        "A": "The window faces the courtyard.",
+        "B": "Not at all; the room is getting chilly.",
+        "C": "I submitted it yesterday."
+      },
+      "answer": "B",
+      "explanation": "The response politely agrees to the request.",
+      "audioText": "Would you mind closing the window? Option A: The window faces the courtyard. Option B: Not at all; the room is getting chilly. Option C: I submitted it yesterday."
+    },
+    {
+      "id": "t4-p2-10",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Where can I find the staff directory?",
+      "choices": {
+        "A": "It is on the intranet under Resources.",
+        "B": "The directory was updated.",
+        "C": "About forty employees."
+      },
+      "answer": "A",
+      "explanation": "The reply provides a location on the intranet.",
+      "audioText": "Where can I find the staff directory? Option A: It is on the intranet under Resources. Option B: The directory was updated. Option C: About forty employees."
+    },
+    {
+      "id": "t4-p2-11",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Has the client received the revised contract?",
+      "choices": {
+        "A": "Yes, I sent it through the secure portal.",
+        "B": "It includes three parking spaces.",
+        "C": "The client meeting is tomorrow."
+      },
+      "answer": "A",
+      "explanation": "The answer confirms delivery and explains how it was sent.",
+      "audioText": "Has the client received the revised contract? Option A: Yes, I sent it through the secure portal. Option B: It includes three parking spaces. Option C: The client meeting is tomorrow."
+    },
+    {
+      "id": "t4-p2-12",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Why is the loading area closed this afternoon?",
+      "choices": {
+        "A": "Two pallets of paper.",
+        "B": "Use the side entrance.",
+        "C": "The surface is being repainted."
+      },
+      "answer": "C",
+      "explanation": "The reply supplies the reason for the closure.",
+      "audioText": "Why is the loading area closed this afternoon? Option A: Two pallets of paper. Option B: Use the side entrance. Option C: The surface is being repainted."
+    },
+    {
+      "id": "t4-p2-13",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Which desk will the new analyst use?",
+      "choices": {
+        "A": "She starts next week.",
+        "B": "It was delivered this morning.",
+        "C": "The vacant one beside the window."
+      },
+      "answer": "C",
+      "explanation": "The answer identifies a desk by its location.",
+      "audioText": "Which desk will the new analyst use? Option A: She starts next week. Option B: It was delivered this morning. Option C: The vacant one beside the window."
+    },
+    {
+      "id": "t4-p2-14",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Can you recommend a place for a team dinner?",
+      "choices": {
+        "A": "The team finished the project.",
+        "B": "The café across from the station has a private room.",
+        "C": "At seven o’clock sharp."
+      },
+      "answer": "B",
+      "explanation": "The reply recommends a relevant place.",
+      "audioText": "Can you recommend a place for a team dinner? Option A: The team finished the project. Option B: The café across from the station has a private room. Option C: At seven o’clock sharp."
+    },
+    {
+      "id": "t4-p2-15",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "How many copies of the brochure should we order?",
+      "choices": {
+        "A": "Let us start with two hundred.",
+        "B": "The brochure explains the warranty.",
+        "C": "At the print shop."
+      },
+      "answer": "A",
+      "explanation": "The reply states a quantity.",
+      "audioText": "How many copies of the brochure should we order? Option A: Let us start with two hundred. Option B: The brochure explains the warranty. Option C: At the print shop."
+    },
+    {
+      "id": "t4-p2-16",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Did you reserve a seat for the visiting speaker?",
+      "choices": {
+        "A": "I booked one near the aisle.",
+        "B": "The visit was informative.",
+        "C": "The speaker is on the second floor."
+      },
+      "answer": "A",
+      "explanation": "The reply confirms a reservation and describes the seat.",
+      "audioText": "Did you reserve a seat for the visiting speaker? Option A: I booked one near the aisle. Option B: The visit was informative. Option C: The speaker is on the second floor."
+    },
+    {
+      "id": "t4-p2-17",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "When will the revised catalog be ready?",
+      "choices": {
+        "A": "No, I have not met the editor.",
+        "B": "It should be printed by Thursday.",
+        "C": "The catalog is on the top shelf."
+      },
+      "answer": "B",
+      "explanation": "The reply gives a time for completion.",
+      "audioText": "When will the revised catalog be ready? Option A: No, I have not met the editor. Option B: It should be printed by Thursday. Option C: The catalog is on the top shelf."
+    },
+    {
+      "id": "t4-p2-18",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Who is leading the afternoon tour?",
+      "choices": {
+        "A": "It begins after lunch.",
+        "B": "The tour route is shorter now.",
+        "C": "Ms. Patel from the visitor center."
+      },
+      "answer": "C",
+      "explanation": "The question asks for a person, and the reply names one.",
+      "audioText": "Who is leading the afternoon tour? Option A: It begins after lunch. Option B: The tour route is shorter now. Option C: Ms. Patel from the visitor center."
+    },
+    {
+      "id": "t4-p2-19",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Could you send me the updated invoice?",
+      "choices": {
+        "A": "The office moved last spring.",
+        "B": "It was paid with a company card.",
+        "C": "Certainly; I will email it before noon."
+      },
+      "answer": "C",
+      "explanation": "The response accepts the request and states how it will be handled.",
+      "audioText": "Could you send me the updated invoice? Option A: The office moved last spring. Option B: It was paid with a company card. Option C: Certainly; I will email it before noon."
+    },
+    {
+      "id": "t4-p2-20",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Why was the conference room changed?",
+      "choices": {
+        "A": "The projector in the original room needs repair.",
+        "B": "At the end of the hallway.",
+        "C": "I reserved two seats."
+      },
+      "answer": "A",
+      "explanation": "The reply provides a reason for the change.",
+      "audioText": "Why was the conference room changed? Option A: The projector in the original room needs repair. Option B: At the end of the hallway. Option C: I reserved two seats."
+    },
+    {
+      "id": "t4-p2-21",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Are you taking the early train to Brighton?",
+      "choices": {
+        "A": "No, I will travel after the client call.",
+        "B": "The station is near the hotel.",
+        "C": "Yes, the report was accurate."
+      },
+      "answer": "A",
+      "explanation": "The response answers the yes-or-no question with a relevant detail.",
+      "audioText": "Are you taking the early train to Brighton? Option A: No, I will travel after the client call. Option B: The station is near the hotel. Option C: Yes, the report was accurate."
+    },
+    {
+      "id": "t4-p2-22",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Where should I leave these sample books?",
+      "choices": {
+        "A": "About three centimeters thick.",
+        "B": "On the table outside the design studio.",
+        "C": "They were published in March."
+      },
+      "answer": "B",
+      "explanation": "The reply identifies a location.",
+      "audioText": "Where should I leave these sample books? Option A: About three centimeters thick. Option B: On the table outside the design studio. Option C: They were published in March."
+    },
+    {
+      "id": "t4-p2-23",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "How often does the shuttle run to the airport?",
+      "choices": {
+        "A": "The flight was delayed.",
+        "B": "Every half hour during the day.",
+        "C": "At Gate 14."
+      },
+      "answer": "B",
+      "explanation": "The reply gives a frequency.",
+      "audioText": "How often does the shuttle run to the airport? Option A: The flight was delayed. Option B: Every half hour during the day. Option C: At Gate 14."
+    },
+    {
+      "id": "t4-p2-24",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "Would you like me to book a larger meeting room?",
+      "choices": {
+        "A": "The meeting lasted an hour.",
+        "B": "I booked the flight online.",
+        "C": "Yes, we expect several additional guests."
+      },
+      "answer": "C",
+      "explanation": "The response accepts the offer and gives a reason.",
+      "audioText": "Would you like me to book a larger meeting room? Option A: The meeting lasted an hour. Option B: I booked the flight online. Option C: Yes, we expect several additional guests."
+    },
+    {
+      "id": "t4-p2-25",
+      "part": 2,
+      "section": "Listening",
+      "prompt": "What time does the repair technician arrive?",
+      "choices": {
+        "A": "At the north entrance.",
+        "B": "The new machine is quieter.",
+        "C": "The service desk said around ten."
+      },
+      "answer": "C",
+      "explanation": "The reply gives an approximate arrival time.",
+      "audioText": "What time does the repair technician arrive? Option A: At the north entrance. Option B: The new machine is quieter. Option C: The service desk said around ten."
+    },
+    {
+      "id": "t4-p3-1-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-1",
+      "prompt": "What are the speakers preparing?",
+      "choices": {
+        "A": "A conference room.",
+        "B": "A supplier invoice.",
+        "C": "A training video.",
+        "D": "A brochure."
+      },
+      "answer": "D",
+      "explanation": "They discuss a draft that will be sent to a printer."
+    },
+    {
+      "id": "t4-p3-1-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-1",
+      "prompt": "What will the man review?",
+      "choices": {
+        "A": "A room reservation.",
+        "B": "The print shop’s contract.",
+        "C": "The visitor list.",
+        "D": "Product specifications."
+      },
+      "answer": "D",
+      "explanation": "He says he can check the product specifications."
+    },
+    {
+      "id": "t4-p3-1-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-1",
+      "prompt": "When does the woman need the comments?",
+      "choices": {
+        "A": "At the end of the week.",
+        "B": "By noon.",
+        "C": "Before the office opens.",
+        "D": "After the final file is printed."
+      },
+      "answer": "B",
+      "explanation": "She requests marked changes by noon."
+    },
+    {
+      "id": "t4-p3-2-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-2",
+      "prompt": "Why will the man arrive late?",
+      "choices": {
+        "A": "He missed the airport shuttle.",
+        "B": "His train is delayed.",
+        "C": "His meeting was extended.",
+        "D": "The client changed the address."
+      },
+      "answer": "B",
+      "explanation": "The man says his train is running late."
+    },
+    {
+      "id": "t4-p3-2-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-2",
+      "prompt": "What will the woman change?",
+      "choices": {
+        "A": "The pickup time.",
+        "B": "The client’s office location.",
+        "C": "The meeting agenda.",
+        "D": "The train ticket."
+      },
+      "answer": "A",
+      "explanation": "She will move the pickup to match the later arrival."
+    },
+    {
+      "id": "t4-p3-2-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-2",
+      "prompt": "How will the client be informed?",
+      "choices": {
+        "A": "By message.",
+        "B": "Through the train conductor.",
+        "C": "At the station desk.",
+        "D": "By a printed letter."
+      },
+      "answer": "A",
+      "explanation": "The woman says she will send a message."
+    },
+    {
+      "id": "t4-p3-3-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-3",
+      "prompt": "What is the woman’s concern?",
+      "choices": {
+        "A": "The workshop was moved to another city.",
+        "B": "The training office has no phone.",
+        "C": "The branch has too many trainers.",
+        "D": "The workshop registration has closed."
+      },
+      "answer": "D",
+      "explanation": "She notes that registration closed yesterday."
+    },
+    {
+      "id": "t4-p3-3-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-3",
+      "prompt": "How many seats are currently available?",
+      "choices": {
+        "A": "One.",
+        "B": "Five.",
+        "C": "Three.",
+        "D": "Two."
+      },
+      "answer": "D",
+      "explanation": "The man says there are two seats left."
+    },
+    {
+      "id": "t4-p3-3-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-3",
+      "prompt": "What will the man do next?",
+      "choices": {
+        "A": "Cancel the workshop.",
+        "B": "Contact the training office.",
+        "C": "Prepare a new safety manual.",
+        "D": "Book a meeting room."
+      },
+      "answer": "B",
+      "explanation": "He will call the training office."
+    },
+    {
+      "id": "t4-p3-4-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-4",
+      "prompt": "What is wrong with the copier?",
+      "choices": {
+        "A": "It marks pages with dark streaks.",
+        "B": "Its paper tray is jammed shut.",
+        "C": "It cannot connect to the network.",
+        "D": "It has run out of toner completely."
+      },
+      "answer": "A",
+      "explanation": "The man reports dark streaks on the copies."
+    },
+    {
+      "id": "t4-p3-4-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-4",
+      "prompt": "When is the technician expected?",
+      "choices": {
+        "A": "Around one o’clock.",
+        "B": "Tomorrow afternoon.",
+        "C": "Before nine.",
+        "D": "At noon exactly."
+      },
+      "answer": "A",
+      "explanation": "The woman gives an approximate arrival time of one."
+    },
+    {
+      "id": "t4-p3-4-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-4",
+      "prompt": "What should the man bring to the other machine?",
+      "choices": {
+        "A": "A network cable.",
+        "B": "A new toner cartridge.",
+        "C": "Paper.",
+        "D": "A service form."
+      },
+      "answer": "C",
+      "explanation": "The woman says the tray is almost empty."
+    },
+    {
+      "id": "t4-p3-5-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-5",
+      "prompt": "What did the hotel confirm?",
+      "choices": {
+        "A": "A meeting room with breakfast included.",
+        "B": "A flight with an earlier departure.",
+        "C": "A canceled reservation for two rooms.",
+        "D": "A reservation without breakfast included."
+      },
+      "answer": "D",
+      "explanation": "The reservation is confirmed, but breakfast is excluded."
+    },
+    {
+      "id": "t4-p3-5-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-5",
+      "prompt": "Why do the speakers want to add breakfast?",
+      "choices": {
+        "A": "The quoted rate is too high.",
+        "B": "The hotel restaurant closes at noon.",
+        "C": "The travel coordinator requested it.",
+        "D": "Their meeting starts early."
+      },
+      "answer": "D",
+      "explanation": "The man connects breakfast with the early meeting."
+    },
+    {
+      "id": "t4-p3-5-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-5",
+      "prompt": "Who should receive a copy of the confirmation?",
+      "choices": {
+        "A": "The travel coordinator.",
+        "B": "The hotel manager.",
+        "C": "The client.",
+        "D": "The meeting presenter."
+      },
+      "answer": "A",
+      "explanation": "The man asks to copy the travel coordinator."
+    },
+    {
+      "id": "t4-p3-6-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-6",
+      "prompt": "What discrepancy do the speakers find?",
+      "choices": {
+        "A": "The furniture was delivered to the wrong office.",
+        "B": "The approved quote has expired.",
+        "C": "A delivery charge was listed twice.",
+        "D": "The invoice is missing a tax number."
+      },
+      "answer": "C",
+      "explanation": "A delivery fee was entered twice."
+    },
+    {
+      "id": "t4-p3-6-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-6",
+      "prompt": "What has the supplier done?",
+      "choices": {
+        "A": "Canceled the furniture order.",
+        "B": "Changed the payment method.",
+        "C": "Corrected the invoice.",
+        "D": "Reduced the number of desks."
+      },
+      "answer": "C",
+      "explanation": "The corrected document has been sent."
+    },
+    {
+      "id": "t4-p3-6-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-6",
+      "prompt": "What should accompany the replacement invoice?",
+      "choices": {
+        "A": "A new purchase card.",
+        "B": "The original approval.",
+        "C": "A delivery photograph.",
+        "D": "A room plan."
+      },
+      "answer": "B",
+      "explanation": "The woman asks him to attach the approval."
+    },
+    {
+      "id": "t4-p3-7-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-7",
+      "prompt": "What needs to be corrected on the poster?",
+      "choices": {
+        "A": "The event date.",
+        "B": "The venue address.",
+        "C": "The list of exhibitors.",
+        "D": "The opening time."
+      },
+      "answer": "D",
+      "explanation": "They discuss the incorrect opening time."
+    },
+    {
+      "id": "t4-p3-7-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-7",
+      "prompt": "What is wrong with the QR code?",
+      "choices": {
+        "A": "It has been removed from the file.",
+        "B": "It lists the wrong venue.",
+        "C": "It is too small to scan.",
+        "D": "It leads to an old webpage."
+      },
+      "answer": "D",
+      "explanation": "It points to last year’s page."
+    },
+    {
+      "id": "t4-p3-7-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-7",
+      "prompt": "When will the man send a proof?",
+      "choices": {
+        "A": "Before eight in the morning.",
+        "B": "Tomorrow evening.",
+        "C": "This afternoon.",
+        "D": "After the fair ends."
+      },
+      "answer": "C",
+      "explanation": "He promises a proof this afternoon."
+    },
+    {
+      "id": "t4-p3-8-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-8",
+      "prompt": "What still needs to be arranged for the analyst?",
+      "choices": {
+        "A": "Her desk assignment.",
+        "B": "Her parking space.",
+        "C": "Her computer account.",
+        "D": "Her first client meeting."
+      },
+      "answer": "C",
+      "explanation": "IT needs the account request before configuring the laptop."
+    },
+    {
+      "id": "t4-p3-8-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-8",
+      "prompt": "What has the man already done?",
+      "choices": {
+        "A": "Completed a request form.",
+        "B": "Installed the laptop.",
+        "C": "Scheduled a training session.",
+        "D": "Collected the building pass."
+      },
+      "answer": "A",
+      "explanation": "He says he filled out the form yesterday."
+    },
+    {
+      "id": "t4-p3-8-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-8",
+      "prompt": "Where will the building pass be left?",
+      "choices": {
+        "A": "At reception.",
+        "B": "Inside the laptop case.",
+        "C": "In the IT office.",
+        "D": "On the analyst’s desk."
+      },
+      "answer": "A",
+      "explanation": "The woman says she will leave it with reception."
+    },
+    {
+      "id": "t4-p3-9-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-9",
+      "prompt": "What does the client want added?",
+      "choices": {
+        "A": "A travel schedule.",
+        "B": "A product sample.",
+        "C": "A staff directory.",
+        "D": "A cost comparison."
+      },
+      "answer": "D",
+      "explanation": "The client requested a cost comparison."
+    },
+    {
+      "id": "t4-p3-9-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-9",
+      "prompt": "What format does the woman prefer?",
+      "choices": {
+        "A": "A table.",
+        "B": "A printed letter.",
+        "C": "A video recording.",
+        "D": "A chart."
+      },
+      "answer": "D",
+      "explanation": "She says a chart is easier to read on the display."
+    },
+    {
+      "id": "t4-p3-9-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-9",
+      "prompt": "When does the woman need the file?",
+      "choices": {
+        "A": "Before the morning call.",
+        "B": "At the end of the week.",
+        "C": "By four o’clock.",
+        "D": "After the presentation."
+      },
+      "answer": "C",
+      "explanation": "She requests it by four."
+    },
+    {
+      "id": "t4-p3-10-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-10",
+      "prompt": "What is happening in the east stairwell?",
+      "choices": {
+        "A": "It is being painted.",
+        "B": "It is being inspected for damage.",
+        "C": "It is being used for storage.",
+        "D": "It has been closed permanently."
+      },
+      "answer": "A",
+      "explanation": "The man says the stairwell is being painted."
+    },
+    {
+      "id": "t4-p3-10-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-10",
+      "prompt": "Which entrance will the inspector use?",
+      "choices": {
+        "A": "The west entrance.",
+        "B": "The east stairwell.",
+        "C": "The underground garage.",
+        "D": "The loading dock."
+      },
+      "answer": "A",
+      "explanation": "They agree on the west entrance."
+    },
+    {
+      "id": "t4-p3-10-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-10",
+      "prompt": "What will the woman ask facilities to do?",
+      "choices": {
+        "A": "Move the paint supplies.",
+        "B": "Put up signs.",
+        "C": "Repair the west door.",
+        "D": "Reschedule the inspection."
+      },
+      "answer": "B",
+      "explanation": "She will ask facilities to post signs."
+    },
+    {
+      "id": "t4-p3-11-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-11",
+      "prompt": "What problem are the speakers discussing?",
+      "choices": {
+        "A": "The labels were printed in the wrong color.",
+        "B": "A packing machine has stopped working.",
+        "C": "The warehouse has run out of cartons.",
+        "D": "A shipment went to an outdated address."
+      },
+      "answer": "D",
+      "explanation": "The supplier used the former warehouse address."
+    },
+    {
+      "id": "t4-p3-11-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-11",
+      "prompt": "When will the labels reach the new site?",
+      "choices": {
+        "A": "This afternoon.",
+        "B": "Later this week.",
+        "C": "Before the warehouse opens today.",
+        "D": "Tomorrow morning."
+      },
+      "answer": "D",
+      "explanation": "The delivery is promised for the next morning."
+    },
+    {
+      "id": "t4-p3-11-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-11",
+      "prompt": "What will the woman do next?",
+      "choices": {
+        "A": "Notify the packing team.",
+        "B": "Reprint the labels.",
+        "C": "Visit the former warehouse.",
+        "D": "Cancel the supplier account."
+      },
+      "answer": "A",
+      "explanation": "She says she will alert the packing team."
+    },
+    {
+      "id": "t4-p3-12-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-12",
+      "prompt": "What issue does the woman mention?",
+      "choices": {
+        "A": "The reserved room is unavailable.",
+        "B": "The screen has been removed.",
+        "C": "The guests cannot use a video link.",
+        "D": "The meeting has been canceled."
+      },
+      "answer": "A",
+      "explanation": "The main conference room was double-booked."
+    },
+    {
+      "id": "t4-p3-12-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-12",
+      "prompt": "Which room will the speakers use?",
+      "choices": {
+        "A": "A room at the client’s office.",
+        "B": "The training room.",
+        "C": "The main conference room.",
+        "D": "The reception area."
+      },
+      "answer": "B",
+      "explanation": "They agree to use the training room."
+    },
+    {
+      "id": "t4-p3-12-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-12",
+      "prompt": "What will the man do before the meeting?",
+      "choices": {
+        "A": "Print new visitor passes.",
+        "B": "Reserve another building.",
+        "C": "Check the screen.",
+        "D": "Call the guests."
+      },
+      "answer": "C",
+      "explanation": "He offers to test the screen."
+    },
+    {
+      "id": "t4-p3-13-1",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-13",
+      "prompt": "Why does the visitor need a new badge?",
+      "choices": {
+        "A": "She left it at home.",
+        "B": "The visitor’s name is missing.",
+        "C": "The department printed on it is incorrect.",
+        "D": "The badge has expired."
+      },
+      "answer": "C",
+      "explanation": "The badge lists the wrong department."
+    },
+    {
+      "id": "t4-p3-13-2",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-13",
+      "prompt": "Who is the visitor scheduled to meet?",
+      "choices": {
+        "A": "The warehouse supervisor.",
+        "B": "The finance director.",
+        "C": "The reception staff.",
+        "D": "The design team."
+      },
+      "answer": "D",
+      "explanation": "She is meeting the design team."
+    },
+    {
+      "id": "t4-p3-13-3",
+      "part": 3,
+      "section": "Listening",
+      "materialId": "t4-p3-13",
+      "prompt": "Where will the visitor wait?",
+      "choices": {
+        "A": "In the lounge.",
+        "B": "At the building entrance.",
+        "C": "On the fourth floor.",
+        "D": "In the design studio."
+      },
+      "answer": "A",
+      "explanation": "The woman asks her to wait in the lounge."
+    },
+    {
+      "id": "t4-p4-1-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-1",
+      "prompt": "Why will trains bypass Central Square?",
+      "choices": {
+        "A": "Workers are repairing platform lights.",
+        "B": "A train has broken down.",
+        "C": "A street festival is blocking the route.",
+        "D": "The station is being renamed."
+      },
+      "answer": "A",
+      "explanation": "The speaker identifies repairs to platform lighting."
+    },
+    {
+      "id": "t4-p4-1-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-1",
+      "prompt": "Where should passengers board the downtown bus?",
+      "choices": {
+        "A": "Beside the river station.",
+        "B": "On Pine Street.",
+        "C": "On the Green Line platform.",
+        "D": "At Central Square."
+      },
+      "answer": "B",
+      "explanation": "Passengers are directed to Pine Street."
+    },
+    {
+      "id": "t4-p4-1-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-1",
+      "prompt": "When is regular service expected to resume?",
+      "choices": {
+        "A": "This afternoon.",
+        "B": "At 10 p.m. tonight.",
+        "C": "Next Monday.",
+        "D": "Tomorrow morning."
+      },
+      "answer": "D",
+      "explanation": "Normal service returns tomorrow morning."
+    },
+    {
+      "id": "t4-p4-2-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-2",
+      "prompt": "What product is being demonstrated?",
+      "choices": {
+        "A": "A label printer.",
+        "B": "A portable projector.",
+        "C": "An accounting application.",
+        "D": "A compact scanner."
+      },
+      "answer": "D",
+      "explanation": "The speaker names the compact scanner."
+    },
+    {
+      "id": "t4-p4-2-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-2",
+      "prompt": "What can the device upload?",
+      "choices": {
+        "A": "Receipts.",
+        "B": "Audio recordings.",
+        "C": "Video presentations.",
+        "D": "Employee schedules."
+      },
+      "answer": "A",
+      "explanation": "The scanner uploads receipts to the accounting portal."
+    },
+    {
+      "id": "t4-p4-2-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-2",
+      "prompt": "Where can visitors ask questions afterward?",
+      "choices": {
+        "A": "At the display table.",
+        "B": "By the loading dock.",
+        "C": "In the accounting office.",
+        "D": "At the building entrance."
+      },
+      "answer": "A",
+      "explanation": "Representatives will be at the display table."
+    },
+    {
+      "id": "t4-p4-3-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-3",
+      "prompt": "What is being opened?",
+      "choices": {
+        "A": "A new transit line.",
+        "B": "A branch location.",
+        "C": "A training course.",
+        "D": "A warehouse sale."
+      },
+      "answer": "B",
+      "explanation": "The speaker welcomes guests to a new branch."
+    },
+    {
+      "id": "t4-p4-3-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-3",
+      "prompt": "Why has the opening time changed?",
+      "choices": {
+        "A": "The store needs more staff.",
+        "B": "A delivery is late.",
+        "C": "A safety inspection is not finished.",
+        "D": "The manager is traveling."
+      },
+      "answer": "C",
+      "explanation": "The final inspection is still in progress."
+    },
+    {
+      "id": "t4-p4-3-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-3",
+      "prompt": "Where are refreshments available?",
+      "choices": {
+        "A": "In the parking area.",
+        "B": "At the side entrance.",
+        "C": "On the sales floor.",
+        "D": "In the upstairs lounge."
+      },
+      "answer": "D",
+      "explanation": "Guests can find refreshments upstairs."
+    },
+    {
+      "id": "t4-p4-4-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-4",
+      "prompt": "What must employees submit by the 18th?",
+      "choices": {
+        "A": "Customer feedback forms.",
+        "B": "A new employee handbook.",
+        "C": "Travel reservation requests.",
+        "D": "Quarterly expense reports."
+      },
+      "answer": "D",
+      "explanation": "The reminder concerns current-quarter expense reports."
+    },
+    {
+      "id": "t4-p4-4-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-4",
+      "prompt": "How should a report be submitted?",
+      "choices": {
+        "A": "Through the employee portal.",
+        "B": "By calling the finance desk.",
+        "C": "By paper form.",
+        "D": "At a Friday meeting."
+      },
+      "answer": "A",
+      "explanation": "The portal is the required method."
+    },
+    {
+      "id": "t4-p4-4-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-4",
+      "prompt": "When is the question session?",
+      "choices": {
+        "A": "The 18th at 2 p.m.",
+        "B": "Friday at 2 p.m.",
+        "C": "Thursday at noon.",
+        "D": "Friday at 8 a.m."
+      },
+      "answer": "B",
+      "explanation": "The speaker gives Friday at two."
+    },
+    {
+      "id": "t4-p4-5-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-5",
+      "prompt": "What is being delivered?",
+      "choices": {
+        "A": "Office computers.",
+        "B": "Printed brochures.",
+        "C": "Replacement chairs.",
+        "D": "Cleaning supplies."
+      },
+      "answer": "C",
+      "explanation": "The notice says replacement chairs are arriving."
+    },
+    {
+      "id": "t4-p4-5-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-5",
+      "prompt": "What should staff do at the loading bay?",
+      "choices": {
+        "A": "Keep it clear and sign for the delivery.",
+        "B": "Prepare a payment envelope.",
+        "C": "Direct visitors to the east entrance.",
+        "D": "Store old chairs there overnight."
+      },
+      "answer": "A",
+      "explanation": "Staff should clear the bay and have someone sign."
+    },
+    {
+      "id": "t4-p4-5-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-5",
+      "prompt": "When should building services be contacted?",
+      "choices": {
+        "A": "After the old chairs are collected tomorrow.",
+        "B": "Before the truck leaves the warehouse.",
+        "C": "At 1 p.m. exactly.",
+        "D": "If the driver has not arrived by 2:15."
+      },
+      "answer": "D",
+      "explanation": "The notice gives 2:15 as the contact threshold."
+    },
+    {
+      "id": "t4-p4-6-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-6",
+      "prompt": "Who is the session intended for?",
+      "choices": {
+        "A": "New customers.",
+        "B": "Current program instructors.",
+        "C": "External job candidates only.",
+        "D": "Employees considering a development program."
+      },
+      "answer": "D",
+      "explanation": "It is for employees interested in the program."
+    },
+    {
+      "id": "t4-p4-6-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-6",
+      "prompt": "What should attendees bring?",
+      "choices": {
+        "A": "A signed contract.",
+        "B": "A training certificate.",
+        "C": "A current résumé.",
+        "D": "A list of customer references."
+      },
+      "answer": "C",
+      "explanation": "Applicants should bring a résumé."
+    },
+    {
+      "id": "t4-p4-6-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-6",
+      "prompt": "When will interviews be arranged?",
+      "choices": {
+        "A": "The same afternoon.",
+        "B": "At the end of the month.",
+        "C": "The following week.",
+        "D": "Next Tuesday morning."
+      },
+      "answer": "C",
+      "explanation": "Interviews follow during the next week."
+    },
+    {
+      "id": "t4-p4-7-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-7",
+      "prompt": "Where does the conference take place?",
+      "choices": {
+        "A": "At the Riverside Center.",
+        "B": "At the downtown library.",
+        "C": "At the airport hotel.",
+        "D": "At the Harbor Avenue branch."
+      },
+      "answer": "A",
+      "explanation": "The speaker names the Riverside Center."
+    },
+    {
+      "id": "t4-p4-7-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-7",
+      "prompt": "What can participants collect at check-in?",
+      "choices": {
+        "A": "Badges and updated schedules.",
+        "B": "An evening meal ticket.",
+        "C": "A laptop and headset.",
+        "D": "Printed invoices and travel vouchers."
+      },
+      "answer": "A",
+      "explanation": "The announcement lists badges and schedules."
+    },
+    {
+      "id": "t4-p4-7-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-7",
+      "prompt": "Where are wireless access details printed?",
+      "choices": {
+        "A": "Outside Hall B.",
+        "B": "On the second-floor elevator.",
+        "C": "On the conference website only.",
+        "D": "On the back of each badge."
+      },
+      "answer": "D",
+      "explanation": "The final sentence gives the location."
+    },
+    {
+      "id": "t4-p4-8-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-8",
+      "prompt": "What is the announcement mainly about?",
+      "choices": {
+        "A": "A change to the lunch menu.",
+        "B": "A new refrigerator delivery.",
+        "C": "A staff meeting on the fifth floor.",
+        "D": "Temporary kitchen maintenance."
+      },
+      "answer": "D",
+      "explanation": "Plumbing work will make the kitchen unavailable."
+    },
+    {
+      "id": "t4-p4-8-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-8",
+      "prompt": "Where should employees go before noon?",
+      "choices": {
+        "A": "The cafeteria across the street.",
+        "B": "The fifth-floor meeting room.",
+        "C": "The kitchen beside the main lobby.",
+        "D": "The loading area."
+      },
+      "answer": "C",
+      "explanation": "The announcement directs them to the lobby kitchen."
+    },
+    {
+      "id": "t4-p4-8-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-8",
+      "prompt": "What should employees do with their food?",
+      "choices": {
+        "A": "Label it.",
+        "B": "Take it to the loading area.",
+        "C": "Leave it on the counter.",
+        "D": "Move it to the fifth floor."
+      },
+      "answer": "A",
+      "explanation": "Employees are asked to label refrigerator items."
+    },
+    {
+      "id": "t4-p4-9-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-9",
+      "prompt": "Why is Carla calling?",
+      "choices": {
+        "A": "The selected return train is full.",
+        "B": "The outbound ticket was canceled.",
+        "C": "The traveler has not paid the hotel.",
+        "D": "The visit moved to another city."
+      },
+      "answer": "A",
+      "explanation": "She explains that the selected return service is fully booked."
+    },
+    {
+      "id": "t4-p4-9-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-9",
+      "prompt": "What has Carla reserved?",
+      "choices": {
+        "A": "A seat on the morning train.",
+        "B": "A seat on the 6:20 train.",
+        "C": "A rental car for the client.",
+        "D": "A hotel room for two nights."
+      },
+      "answer": "B",
+      "explanation": "She has held a seat on the 6:20 service."
+    },
+    {
+      "id": "t4-p4-9-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-9",
+      "prompt": "By what time should the traveler call?",
+      "choices": {
+        "A": "After the visit.",
+        "B": "At 6:20.",
+        "C": "Three o’clock.",
+        "D": "Before noon."
+      },
+      "answer": "C",
+      "explanation": "Carla asks for a call before three."
+    },
+    {
+      "id": "t4-p4-10-1",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-10",
+      "prompt": "Where will the workshop take place?",
+      "choices": {
+        "A": "The reception desk.",
+        "B": "The auditorium.",
+        "C": "The downtown training center.",
+        "D": "Room 204."
+      },
+      "answer": "D",
+      "explanation": "The speaker corrects the location to Room 204."
+    },
+    {
+      "id": "t4-p4-10-2",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-10",
+      "prompt": "What should attendees bring?",
+      "choices": {
+        "A": "An example of a difficult question.",
+        "B": "A printed response guide.",
+        "C": "A customer survey.",
+        "D": "A laptop for the facilitator."
+      },
+      "answer": "A",
+      "explanation": "The team is asked to bring an example question."
+    },
+    {
+      "id": "t4-p4-10-3",
+      "part": 4,
+      "section": "Listening",
+      "materialId": "t4-p4-10",
+      "prompt": "When will the guide be distributed?",
+      "choices": {
+        "A": "Before the workshop begins.",
+        "B": "At the end of the session.",
+        "C": "During registration.",
+        "D": "The following morning."
+      },
+      "answer": "B",
+      "explanation": "The facilitator will distribute it at the end."
+    },
+    {
+      "id": "t4-p5-1",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The firm hired a consultant ___ specializes in workplace safety.",
+      "choices": {
+        "A": "who",
+        "B": "what",
+        "C": "whose",
+        "D": "whom"
+      },
+      "answer": "A",
+      "explanation": "Who is the subject of the clause and refers to a person."
+    },
+    {
+      "id": "t4-p5-2",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Please review the contract ___ before signing it.",
+      "choices": {
+        "A": "care",
+        "B": "carefully",
+        "C": "careful",
+        "D": "carefulness"
+      },
+      "answer": "B",
+      "explanation": "An adverb modifies review."
+    },
+    {
+      "id": "t4-p5-3",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The conference will be held ___ the main auditorium and the east wing.",
+      "choices": {
+        "A": "across",
+        "B": "between",
+        "C": "during",
+        "D": "since"
+      },
+      "answer": "B",
+      "explanation": "Between is used with two named areas."
+    },
+    {
+      "id": "t4-p5-4",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Applicants should submit a résumé ___ a short cover letter.",
+      "choices": {
+        "A": "unless",
+        "B": "in spite",
+        "C": "along with",
+        "D": "because"
+      },
+      "answer": "C",
+      "explanation": "Along with adds a second document."
+    },
+    {
+      "id": "t4-p5-5",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The shipment ___ at the south entrance yesterday afternoon.",
+      "choices": {
+        "A": "has arrive",
+        "B": "arrive",
+        "C": "arriving",
+        "D": "arrived"
+      },
+      "answer": "D",
+      "explanation": "Yesterday afternoon signals simple past."
+    },
+    {
+      "id": "t4-p5-6",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Please submit the application ___ the end of the month.",
+      "choices": {
+        "A": "during",
+        "B": "until",
+        "C": "since",
+        "D": "by"
+      },
+      "answer": "D",
+      "explanation": "By expresses a deadline."
+    },
+    {
+      "id": "t4-p5-7",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The updated brochure is available ___ the company website.",
+      "choices": {
+        "A": "between",
+        "B": "on",
+        "C": "at",
+        "D": "during"
+      },
+      "answer": "B",
+      "explanation": "On is used for content displayed on a website."
+    },
+    {
+      "id": "t4-p5-8",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The assistant completed the filing ___ than expected.",
+      "choices": {
+        "A": "more quick",
+        "B": "more quickly",
+        "C": "quick",
+        "D": "quickest"
+      },
+      "answer": "B",
+      "explanation": "The adverb quickly is compared with more."
+    },
+    {
+      "id": "t4-p5-9",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "A copy of the revised policy ___ attached to the email.",
+      "choices": {
+        "A": "were",
+        "B": "are",
+        "C": "is",
+        "D": "have"
+      },
+      "answer": "C",
+      "explanation": "A copy is singular and takes is."
+    },
+    {
+      "id": "t4-p5-10",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Customers may contact the service desk ___ they have questions.",
+      "choices": {
+        "A": "if",
+        "B": "until",
+        "C": "despite",
+        "D": "although"
+      },
+      "answer": "A",
+      "explanation": "If introduces a possible condition."
+    },
+    {
+      "id": "t4-p5-11",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The director thanked the staff for their ___ during the move.",
+      "choices": {
+        "A": "cooperation",
+        "B": "cooperatively",
+        "C": "cooperative",
+        "D": "cooperate"
+      },
+      "answer": "A",
+      "explanation": "A noun is required after their."
+    },
+    {
+      "id": "t4-p5-12",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The presentation was clear, ___ the audience requested more examples.",
+      "choices": {
+        "A": "unless",
+        "B": "so that",
+        "C": "because",
+        "D": "but"
+      },
+      "answer": "D",
+      "explanation": "But contrasts the clear presentation with the request."
+    },
+    {
+      "id": "t4-p5-13",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The new branch is located ___ the central railway station.",
+      "choices": {
+        "A": "during",
+        "B": "near",
+        "C": "among",
+        "D": "across"
+      },
+      "answer": "B",
+      "explanation": "Near describes proximity."
+    },
+    {
+      "id": "t4-p5-14",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The technician will replace the part as soon as it ___.",
+      "choices": {
+        "A": "arrived",
+        "B": "arrive",
+        "C": "arrives",
+        "D": "arriving"
+      },
+      "answer": "C",
+      "explanation": "A present-tense verb follows as soon as for a future event."
+    },
+    {
+      "id": "t4-p5-15",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The committee has not yet made a final ___.",
+      "choices": {
+        "A": "decision",
+        "B": "decide",
+        "C": "deciding",
+        "D": "decisive"
+      },
+      "answer": "A",
+      "explanation": "A noun is needed after final."
+    },
+    {
+      "id": "t4-p5-16",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The conference room is large enough ___ thirty participants.",
+      "choices": {
+        "A": "by",
+        "B": "for",
+        "C": "with",
+        "D": "to"
+      },
+      "answer": "B",
+      "explanation": "For introduces the group that can be accommodated."
+    },
+    {
+      "id": "t4-p5-17",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Please keep the receipt ___ you need to request a refund.",
+      "choices": {
+        "A": "as soon as",
+        "B": "in case",
+        "C": "instead of",
+        "D": "even though"
+      },
+      "answer": "B",
+      "explanation": "In case introduces a precaution."
+    },
+    {
+      "id": "t4-p5-18",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The contractor worked ___ to finish the renovation on time.",
+      "choices": {
+        "A": "care",
+        "B": "carefulness",
+        "C": "careful",
+        "D": "carefully"
+      },
+      "answer": "D",
+      "explanation": "An adverb modifies worked."
+    },
+    {
+      "id": "t4-p5-19",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "This is the most ___ route to the regional office.",
+      "choices": {
+        "A": "convenience",
+        "B": "conveniently",
+        "C": "convenient",
+        "D": "conveniences"
+      },
+      "answer": "C",
+      "explanation": "An adjective is needed after most."
+    },
+    {
+      "id": "t4-p5-20",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The two departments will share the cost ___ the equipment.",
+      "choices": {
+        "A": "of",
+        "B": "by",
+        "C": "at",
+        "D": "through"
+      },
+      "answer": "A",
+      "explanation": "Share the cost of is the standard phrase."
+    },
+    {
+      "id": "t4-p5-21",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The manager asked us ___ the draft before Friday.",
+      "choices": {
+        "A": "review",
+        "B": "to review",
+        "C": "reviewing",
+        "D": "reviewed"
+      },
+      "answer": "B",
+      "explanation": "Ask someone is followed by a to-infinitive."
+    },
+    {
+      "id": "t4-p5-22",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The file was saved ___ the shared project folder.",
+      "choices": {
+        "A": "at",
+        "B": "in",
+        "C": "between",
+        "D": "on"
+      },
+      "answer": "B",
+      "explanation": "In describes a file stored inside a folder."
+    },
+    {
+      "id": "t4-p5-23",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The new safety guidelines apply ___ all warehouse employees.",
+      "choices": {
+        "A": "with",
+        "B": "by",
+        "C": "to",
+        "D": "for"
+      },
+      "answer": "C",
+      "explanation": "Apply to is the correct verb-preposition pairing."
+    },
+    {
+      "id": "t4-p5-24",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The report was ___ completed ahead of schedule.",
+      "choices": {
+        "A": "successful",
+        "B": "success",
+        "C": "succeed",
+        "D": "successfully"
+      },
+      "answer": "D",
+      "explanation": "An adverb modifies completed."
+    },
+    {
+      "id": "t4-p5-25",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "Every applicant ___ asked to provide two references.",
+      "choices": {
+        "A": "is",
+        "B": "are",
+        "C": "have",
+        "D": "were"
+      },
+      "answer": "A",
+      "explanation": "Every applicant is singular."
+    },
+    {
+      "id": "t4-p5-26",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The staff meeting was moved ___ a room with better lighting.",
+      "choices": {
+        "A": "at",
+        "B": "to",
+        "C": "on",
+        "D": "from"
+      },
+      "answer": "B",
+      "explanation": "Move to indicates the new destination."
+    },
+    {
+      "id": "t4-p5-27",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The editor requested a ___ version of the product description.",
+      "choices": {
+        "A": "shortly",
+        "B": "shorter",
+        "C": "short",
+        "D": "shortest"
+      },
+      "answer": "B",
+      "explanation": "A comparative adjective is required by the comparison context."
+    },
+    {
+      "id": "t4-p5-28",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The client thanked us for responding ___.",
+      "choices": {
+        "A": "promptness",
+        "B": "prompting",
+        "C": "promptly",
+        "D": "prompt"
+      },
+      "answer": "C",
+      "explanation": "An adverb modifies responding."
+    },
+    {
+      "id": "t4-p5-29",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The equipment should be stored ___ a dry location.",
+      "choices": {
+        "A": "at",
+        "B": "among",
+        "C": "in",
+        "D": "on"
+      },
+      "answer": "C",
+      "explanation": "In is used for an enclosed or bounded place."
+    },
+    {
+      "id": "t4-p5-30",
+      "part": 5,
+      "section": "Reading",
+      "prompt": "The finance team ___ the revised budget before the director arrived.",
+      "choices": {
+        "A": "reviews",
+        "B": "has review",
+        "C": "reviewing",
+        "D": "reviewed"
+      },
+      "answer": "D",
+      "explanation": "The past event takes a simple past verb."
+    },
+    {
+      "id": "t4-p6-1-1",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-1",
+      "prompt": "Choose the best word or phrase for blank 1 in the text.",
+      "choices": {
+        "A": "during",
+        "B": "across",
+        "C": "from",
+        "D": "between"
+      },
+      "answer": "C",
+      "explanation": "From identifies the issuing location."
+    },
+    {
+      "id": "t4-p6-1-2",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-1",
+      "prompt": "Choose the best word or phrase for blank 2 in the text.",
+      "choices": {
+        "A": "since",
+        "B": "among",
+        "C": "during",
+        "D": "by"
+      },
+      "answer": "D",
+      "explanation": "By expresses a deadline."
+    },
+    {
+      "id": "t4-p6-1-3",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-1",
+      "prompt": "Choose the best word or phrase for blank 3 in the text.",
+      "choices": {
+        "A": "immediacy",
+        "B": "immediately",
+        "C": "immediate",
+        "D": "more immediate"
+      },
+      "answer": "B",
+      "explanation": "An adverb modifies report."
+    },
+    {
+      "id": "t4-p6-1-4",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-1",
+      "prompt": "Choose the best word or phrase for blank 4 in the text.",
+      "choices": {
+        "A": "by",
+        "B": "for",
+        "C": "at",
+        "D": "with"
+      },
+      "answer": "B",
+      "explanation": "For introduces a price."
+    },
+    {
+      "id": "t4-p6-2-1",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-2",
+      "prompt": "Choose the best word or phrase for blank 1 in the text.",
+      "choices": {
+        "A": "during",
+        "B": "between",
+        "C": "through",
+        "D": "among"
+      },
+      "answer": "C",
+      "explanation": "Through describes access via the portal."
+    },
+    {
+      "id": "t4-p6-2-2",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-2",
+      "prompt": "Choose the best word or phrase for blank 2 in the text.",
+      "choices": {
+        "A": "beside",
+        "B": "during",
+        "C": "upon",
+        "D": "among"
+      },
+      "answer": "C",
+      "explanation": "Upon request is the standard phrase."
+    },
+    {
+      "id": "t4-p6-2-3",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-2",
+      "prompt": "Choose the best word or phrase for blank 3 in the text.",
+      "choices": {
+        "A": "details",
+        "B": "detailed",
+        "C": "detailing",
+        "D": "detail"
+      },
+      "answer": "B",
+      "explanation": "An adjective modifies descriptions."
+    },
+    {
+      "id": "t4-p6-2-4",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-2",
+      "prompt": "Choose the best word or phrase for blank 4 in the text.",
+      "choices": {
+        "A": "through",
+        "B": "beside",
+        "C": "among",
+        "D": "without"
+      },
+      "answer": "D",
+      "explanation": "Without notice is the conventional expression."
+    },
+    {
+      "id": "t4-p6-3-1",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-3",
+      "prompt": "Choose the best word or phrase for blank 1 in the text.",
+      "choices": {
+        "A": "about",
+        "B": "aroundly",
+        "C": "approximate",
+        "D": "approximation"
+      },
+      "answer": "A",
+      "explanation": "About means approximately."
+    },
+    {
+      "id": "t4-p6-3-2",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-3",
+      "prompt": "Choose the best word or phrase for blank 2 in the text.",
+      "choices": {
+        "A": "anonymity",
+        "B": "anonymous",
+        "C": "anonymously",
+        "D": "anonymize"
+      },
+      "answer": "C",
+      "explanation": "An adverb modifies collected."
+    },
+    {
+      "id": "t4-p6-3-3",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-3",
+      "prompt": "Choose the best word or phrase for blank 3 in the text.",
+      "choices": {
+        "A": "for",
+        "B": "of",
+        "C": "by",
+        "D": "with"
+      },
+      "answer": "A",
+      "explanation": "Areas for improvement is the correct phrase."
+    },
+    {
+      "id": "t4-p6-3-4",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-3",
+      "prompt": "Choose the best word or phrase for blank 4 in the text.",
+      "choices": {
+        "A": "with",
+        "B": "for",
+        "C": "at",
+        "D": "to"
+      },
+      "answer": "B",
+      "explanation": "Thank you for is followed by a gerund."
+    },
+    {
+      "id": "t4-p6-4-1",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-4",
+      "prompt": "Choose the best word or phrase for blank 1 in the text.",
+      "choices": {
+        "A": "by",
+        "B": "for",
+        "C": "among",
+        "D": "at"
+      },
+      "answer": "B",
+      "explanation": "Scheduled for identifies the planned time."
+    },
+    {
+      "id": "t4-p6-4-2",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-4",
+      "prompt": "Choose the best word or phrase for blank 2 in the text.",
+      "choices": {
+        "A": "beside",
+        "B": "although",
+        "C": "during",
+        "D": "until"
+      },
+      "answer": "D",
+      "explanation": "Until indicates how long the alternative is needed."
+    },
+    {
+      "id": "t4-p6-4-3",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-4",
+      "prompt": "Choose the best word or phrase for blank 3 in the text.",
+      "choices": {
+        "A": "directly",
+        "B": "direction",
+        "C": "direct",
+        "D": "directing"
+      },
+      "answer": "C",
+      "explanation": "Will takes the base verb."
+    },
+    {
+      "id": "t4-p6-4-4",
+      "part": 6,
+      "section": "Reading",
+      "materialId": "t4-p6-4",
+      "prompt": "Choose the best word or phrase for blank 4 in the text.",
+      "choices": {
+        "A": "cooperate",
+        "B": "cooperation",
+        "C": "cooperative",
+        "D": "cooperatingly"
+      },
+      "answer": "B",
+      "explanation": "A noun follows your."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-1-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-1",
+      "prompt": "What event has been rescheduled?",
+      "choices": {
+        "A": "The weekly planning meeting.",
+        "B": "A product demonstration.",
+        "C": "The client review.",
+        "D": "A staff training session."
+      },
+      "answer": "A",
+      "explanation": "The memo says the planning meeting has moved."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-1-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-1",
+      "prompt": "Why was the meeting moved?",
+      "choices": {
+        "A": "The staff requested a later date.",
+        "B": "The project timeline is incomplete.",
+        "C": "The Cedar Room is being used for a client review.",
+        "D": "Room 204 is under repair."
+      },
+      "answer": "C",
+      "explanation": "The client review occupies the Cedar Room."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-1-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-1",
+      "prompt": "What should staff bring?",
+      "choices": {
+        "A": "The latest project timeline.",
+        "B": "A printed invoice.",
+        "C": "A room reservation form.",
+        "D": "A visitor badge."
+      },
+      "answer": "A",
+      "explanation": "The memo asks attendees to bring the timeline."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-2-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-2",
+      "prompt": "Which qualification is required?",
+      "choices": {
+        "A": "At least two years of client-service experience.",
+        "B": "A commercial driver’s license.",
+        "C": "A degree in graphic design.",
+        "D": "Five years of accounting experience."
+      },
+      "answer": "A",
+      "explanation": "The notice specifies two years of client-service experience."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-2-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-2",
+      "prompt": "What should applicants submit?",
+      "choices": {
+        "A": "A customer-service report.",
+        "B": "A work sample and two references.",
+        "C": "A résumé and a cover letter.",
+        "D": "A signed employment contract."
+      },
+      "answer": "C",
+      "explanation": "The notice requests both documents."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-2-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-2",
+      "prompt": "When will interviews take place?",
+      "choices": {
+        "A": "In the second half of the month.",
+        "B": "During the first week.",
+        "C": "Before applications are accepted.",
+        "D": "On the application deadline."
+      },
+      "answer": "A",
+      "explanation": "The final sentence gives the timing."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-3-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-3",
+      "prompt": "Why will the counter open late?",
+      "choices": {
+        "A": "Staff are attending a safety briefing.",
+        "B": "Online orders have been suspended.",
+        "C": "A delivery is arriving late.",
+        "D": "The building is being repainted."
+      },
+      "answer": "A",
+      "explanation": "The safety briefing is the reason."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-3-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-3",
+      "prompt": "How can customers collect a reserved item?",
+      "choices": {
+        "A": "Place a new order online.",
+        "B": "Visit the east entrance before nine.",
+        "C": "Use the west entrance after 9:30.",
+        "D": "Wait for an email the next day."
+      },
+      "answer": "C",
+      "explanation": "The notice gives the west entrance and time."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-3-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-3",
+      "prompt": "When do normal hours resume?",
+      "choices": {
+        "A": "The following day.",
+        "B": "At the start of next month.",
+        "C": "After the weekend.",
+        "D": "At 9:30 that morning."
+      },
+      "answer": "A",
+      "explanation": "The final sentence says the following day."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-4-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-4",
+      "prompt": "What is the invoice for?",
+      "choices": {
+        "A": "A quarterly maintenance plan.",
+        "B": "A furniture shipment.",
+        "C": "A one-time equipment repair.",
+        "D": "A conference registration."
+      },
+      "answer": "A",
+      "explanation": "The reminder identifies the maintenance plan."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-4-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-4",
+      "prompt": "How should the invoice number be included?",
+      "choices": {
+        "A": "In the service description.",
+        "B": "In a call to the account team.",
+        "C": "With the payment.",
+        "D": "On a separate envelope."
+      },
+      "answer": "C",
+      "explanation": "The notice asks customers to include it with payment."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-4-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-4",
+      "prompt": "Who should answer questions about the plan?",
+      "choices": {
+        "A": "The account team.",
+        "B": "The delivery driver.",
+        "C": "The security office.",
+        "D": "The billing desk."
+      },
+      "answer": "A",
+      "explanation": "The notice directs service questions to the account team."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-5-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-5",
+      "prompt": "What is the forum about?",
+      "choices": {
+        "A": "Accessible public spaces.",
+        "B": "Workplace safety procedures.",
+        "C": "Online marketing strategies.",
+        "D": "Small-business accounting."
+      },
+      "answer": "A",
+      "explanation": "The flyer names accessible public spaces as the topic."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-5-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-5",
+      "prompt": "Who can attend without charge?",
+      "choices": {
+        "A": "People who bring a printed ticket.",
+        "B": "Anyone arriving after the discussion.",
+        "C": "Registered participants.",
+        "D": "Only gallery employees."
+      },
+      "answer": "C",
+      "explanation": "Admission is free to registered participants."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-5-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-5",
+      "prompt": "What will happen after the discussion?",
+      "choices": {
+        "A": "A networking reception.",
+        "B": "A product auction.",
+        "C": "A second registration period.",
+        "D": "A building inspection."
+      },
+      "answer": "A",
+      "explanation": "A reception follows the discussion."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-6-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-6",
+      "prompt": "Which area will be cleaned?",
+      "choices": {
+        "A": "The west side of the building.",
+        "B": "The lobby floor only.",
+        "C": "The east-side meeting rooms.",
+        "D": "The underground garage."
+      },
+      "answer": "A",
+      "explanation": "The west side is scheduled for cleaning."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-6-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-6",
+      "prompt": "What should employees do by 8 a.m.?",
+      "choices": {
+        "A": "Turn off every computer.",
+        "B": "Move all furniture to the lobby.",
+        "C": "Clear personal items from desks near the windows.",
+        "D": "Close the east-side meeting rooms."
+      },
+      "answer": "C",
+      "explanation": "The memo asks staff to clear nearby desks."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-6-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-6",
+      "prompt": "Where may employees meet during the work?",
+      "choices": {
+        "A": "In the east-side meeting rooms.",
+        "B": "In the underground garage.",
+        "C": "Outside the west entrance.",
+        "D": "On upper floors near the windows."
+      },
+      "answer": "A",
+      "explanation": "The memo permits use of the east-side rooms."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-7-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-7",
+      "prompt": "How many lamps were ordered?",
+      "choices": {
+        "A": "Twenty-four.",
+        "B": "Twenty.",
+        "C": "Fourteen.",
+        "D": "Forty-two."
+      },
+      "answer": "A",
+      "explanation": "The confirmation states 24 lamps."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-7-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-7",
+      "prompt": "What should the recipient do if an item is damaged?",
+      "choices": {
+        "A": "Wait for the invoice.",
+        "B": "Return every carton on the same day.",
+        "C": "Report it within five business days.",
+        "D": "Contact the carrier after one month."
+      },
+      "answer": "C",
+      "explanation": "The notice gives a five-business-day reporting period."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-7-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-7",
+      "prompt": "How will the invoice be sent?",
+      "choices": {
+        "A": "Separately by email.",
+        "B": "By courier with the lamps.",
+        "C": "Through office reception.",
+        "D": "Inside the first carton."
+      },
+      "answer": "A",
+      "explanation": "The final sentence gives the method."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-8-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-8",
+      "prompt": "Where does the train arrive?",
+      "choices": {
+        "A": "Brookfield.",
+        "B": "The airport terminal.",
+        "C": "Union Station.",
+        "D": "The client’s office."
+      },
+      "answer": "A",
+      "explanation": "The itinerary says the train arrives in Brookfield."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-8-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-8",
+      "prompt": "What is attached to the itinerary?",
+      "choices": {
+        "A": "A meeting agenda.",
+        "B": "A hotel receipt.",
+        "C": "A taxi voucher.",
+        "D": "A parking permit."
+      },
+      "answer": "C",
+      "explanation": "The itinerary mentions an attached taxi voucher."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-8-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-8",
+      "prompt": "What should the traveler keep?",
+      "choices": {
+        "A": "Receipts for additional local travel.",
+        "B": "A platform map.",
+        "C": "The visitor badge.",
+        "D": "A copy of the train timetable."
+      },
+      "answer": "A",
+      "explanation": "The final sentence asks the traveler to keep receipts."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-9-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-9",
+      "prompt": "Where must equipment requests be submitted?",
+      "choices": {
+        "A": "Through the staff portal.",
+        "B": "In a meeting with the vendor.",
+        "C": "By postal mail to Human Resources.",
+        "D": "At building reception."
+      },
+      "answer": "A",
+      "explanation": "The policy requires the staff portal."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-9-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-9",
+      "prompt": "How long do managers have to review requests?",
+      "choices": {
+        "A": "Until the end of the month.",
+        "B": "One calendar week.",
+        "C": "Three business days.",
+        "D": "Two business hours."
+      },
+      "answer": "C",
+      "explanation": "The policy sets a three-business-day period."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-9-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-9",
+      "prompt": "When must existing equipment be returned?",
+      "choices": {
+        "A": "When an employee changes departments.",
+        "B": "Whenever a new form is submitted.",
+        "C": "Before using the portal.",
+        "D": "At the end of every month."
+      },
+      "answer": "A",
+      "explanation": "Return is required for a department change."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-10-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-10",
+      "prompt": "What is the customer’s issue?",
+      "choices": {
+        "A": "A replacement keyboard has not arrived.",
+        "B": "The customer cannot access the chat.",
+        "C": "A shipping fee was charged twice.",
+        "D": "The keyboard is the wrong color."
+      },
+      "answer": "A",
+      "explanation": "The customer says the replacement keyboard has not arrived."
+    },
+    {
+      "id": "t4-p7-t4-p7-single-10-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-single-10",
+      "prompt": "What caused the delay?",
+      "choices": {
+        "A": "The item was out of stock.",
+        "B": "The customer used an old address.",
+        "C": "The parcel was held at a regional depot.",
+        "D": "The warehouse was closed."
+      },
+      "answer": "C",
+      "explanation": "The agent identifies a delay at the regional depot."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-1-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-1",
+      "prompt": "Where will the forum take place?",
+      "choices": {
+        "A": "At the Riverside Center.",
+        "B": "At the north warehouse.",
+        "C": "At the company’s main office.",
+        "D": "At the Harbor Gallery."
+      },
+      "answer": "A",
+      "explanation": "The event email names the Riverside Center."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-1-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-1",
+      "prompt": "What must attendees bring?",
+      "choices": {
+        "A": "A visitor badge from last year.",
+        "B": "A product sample.",
+        "C": "A printed confirmation.",
+        "D": "A lunch receipt."
+      },
+      "answer": "C",
+      "explanation": "The email asks attendees to bring the printed confirmation."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-1-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-1",
+      "prompt": "Why does the attendee reply?",
+      "choices": {
+        "A": "To request a vegetarian lunch.",
+        "B": "To change the event date.",
+        "C": "To ask for a hotel room.",
+        "D": "To cancel a registration."
+      },
+      "answer": "A",
+      "explanation": "The reply requests a vegetarian lunch."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-1-4",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-1",
+      "prompt": "Which session does the attendee plan to attend?",
+      "choices": {
+        "A": "The 10 a.m. session on sustainable packaging.",
+        "B": "The afternoon session on product design.",
+        "C": "The noon session on recruitment.",
+        "D": "The 8:30 a.m. session on finance."
+      },
+      "answer": "A",
+      "explanation": "The reply mentions the 10 a.m. packaging session."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-1-5",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-1",
+      "prompt": "What should be done before September 15?",
+      "choices": {
+        "A": "Submit a supplier invoice.",
+        "B": "Choose a different venue.",
+        "C": "Request a vegetarian lunch.",
+        "D": "Print a new event schedule."
+      },
+      "answer": "C",
+      "explanation": "The event office gives the lunch-request deadline."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-2-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-2",
+      "prompt": "How much does one set of lamps cost?",
+      "choices": {
+        "A": "$480.",
+        "B": "$515.",
+        "C": "$35.",
+        "D": "$284."
+      },
+      "answer": "A",
+      "explanation": "The quotation lists each set at $480."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-2-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-2",
+      "prompt": "What qualifies an order for free delivery?",
+      "choices": {
+        "A": "Paying with a company card.",
+        "B": "Ordering by the end of the month.",
+        "C": "Ordering at least 20 sets.",
+        "D": "Delivering to the west entrance."
+      },
+      "answer": "C",
+      "explanation": "The quotation sets a 20-set minimum."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-2-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-2",
+      "prompt": "How many sets does Purchasing need?",
+      "choices": {
+        "A": "Twenty-four.",
+        "B": "Twenty.",
+        "C": "Thirty-five.",
+        "D": "Twelve."
+      },
+      "answer": "A",
+      "explanation": "The email requests 24 sets."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-2-4",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-2",
+      "prompt": "What does the buyer ask the supplier to confirm?",
+      "choices": {
+        "A": "That the units are in stock and delivery is free.",
+        "B": "That payment has already been received.",
+        "C": "That the quotation can be extended.",
+        "D": "That each set includes a spare battery."
+      },
+      "answer": "A",
+      "explanation": "The buyer asks about availability and free delivery."
+    },
+    {
+      "id": "t4-p7-t4-p7-double-2-5",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-double-2",
+      "prompt": "Where should the order be delivered?",
+      "choices": {
+        "A": "To the supplier’s sales office.",
+        "B": "To the Riverside Center.",
+        "C": "To the west entrance.",
+        "D": "To the central loading bay."
+      },
+      "answer": "C",
+      "explanation": "The purchasing email specifies the west entrance."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-1-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-1",
+      "prompt": "When is the review meeting?",
+      "choices": {
+        "A": "Tuesday at 3:15 p.m..",
+        "B": "The following week at 9 a.m.",
+        "C": "Thursday at 11:20 a.m..",
+        "D": "Friday at noon."
+      },
+      "answer": "A",
+      "explanation": "The email and calendar give the new day and time."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-1-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-1",
+      "prompt": "Where will the team meet?",
+      "choices": {
+        "A": "At the manager’s office.",
+        "B": "At the client site.",
+        "C": "In the Cedar Room.",
+        "D": "In the main lobby."
+      },
+      "answer": "C",
+      "explanation": "The calendar identifies the Cedar Room."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-1-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-1",
+      "prompt": "What should attendees read beforehand?",
+      "choices": {
+        "A": "The draft report.",
+        "B": "The previous quarter’s budget.",
+        "C": "The visitor guide.",
+        "D": "The client contract."
+      },
+      "answer": "A",
+      "explanation": "The email asks the team to read the draft report."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-1-4",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-1",
+      "prompt": "Why may the meeting start with a report summary?",
+      "choices": {
+        "A": "One attendee is arriving from a client visit.",
+        "B": "The report has not been completed.",
+        "C": "The manager has not seen the agenda.",
+        "D": "The room is available only briefly."
+      },
+      "answer": "A",
+      "explanation": "The chat says an attendee is coming from a client visit."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-1-5",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-1",
+      "prompt": "What will Daniel do before lunch?",
+      "choices": {
+        "A": "Rewrite the report.",
+        "B": "Call the regional manager.",
+        "C": "Send questions to the group.",
+        "D": "Reserve a different room."
+      },
+      "answer": "C",
+      "explanation": "The chat says the questions will be sent before lunch."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-2-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-2",
+      "prompt": "How many chairs are in the order?",
+      "choices": {
+        "A": "Eighteen.",
+        "B": "Twenty.",
+        "C": "Eight.",
+        "D": "Twelve."
+      },
+      "answer": "A",
+      "explanation": "The order email says 18 chairs."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-2-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-2",
+      "prompt": "When is the delivery expected?",
+      "choices": {
+        "A": "The following morning.",
+        "B": "Between 8 and 9 a.m.",
+        "C": "Between 1 and 2 p.m.",
+        "D": "After 3 p.m."
+      },
+      "answer": "C",
+      "explanation": "The delivery schedule gives a 1–2 p.m. window."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-2-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-2",
+      "prompt": "What is required when the chairs arrive?",
+      "choices": {
+        "A": "Someone must sign the receipt.",
+        "B": "The area must close for a week.",
+        "C": "The carrier must call the supplier.",
+        "D": "The old chairs must be repainted."
+      },
+      "answer": "A",
+      "explanation": "The email and schedule require a signature."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-2-4",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-2",
+      "prompt": "Why will Miles take over at 1:30?",
+      "choices": {
+        "A": "Leah has a building inspection.",
+        "B": "The receipt clipboard is missing.",
+        "C": "The loading bay will be closed.",
+        "D": "The carrier requested a new date."
+      },
+      "answer": "A",
+      "explanation": "The chat says the inspection is after 1:30."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-2-5",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-2",
+      "prompt": "What should be left at reception?",
+      "choices": {
+        "A": "The original invoice.",
+        "B": "A visitor badge and parking pass.",
+        "C": "The floor plan and receipt clipboard.",
+        "D": "The old chairs and a tool kit."
+      },
+      "answer": "C",
+      "explanation": "The message specifies those two items."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-3-1",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-3",
+      "prompt": "When is the workshop?",
+      "choices": {
+        "A": "On September 15.",
+        "B": "At the end of the quarter.",
+        "C": "On September 9.",
+        "D": "Next Monday morning."
+      },
+      "answer": "A",
+      "explanation": "The invitation gives the date."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-3-2",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-3",
+      "prompt": "Where is the editing practice?",
+      "choices": {
+        "A": "In the main auditorium.",
+        "B": "In the adjoining lounge.",
+        "C": "In Room 3.",
+        "D": "At the front desk."
+      },
+      "answer": "C",
+      "explanation": "The schedule lists Room 3."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-3-3",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-3",
+      "prompt": "What meal request did Sofia make?",
+      "choices": {
+        "A": "A vegetarian lunch.",
+        "B": "A packed dinner.",
+        "C": "No meal.",
+        "D": "A dairy-free breakfast."
+      },
+      "answer": "A",
+      "explanation": "The message mentions a vegetarian lunch."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-3-4",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-3",
+      "prompt": "What should Sofia do before entering Room 3?",
+      "choices": {
+        "A": "Check in at the front desk.",
+        "B": "Sign a supplier contract.",
+        "C": "Call the presenter.",
+        "D": "Collect a parking voucher."
+      },
+      "answer": "A",
+      "explanation": "Learning Services instructs the attendee to check in first."
+    },
+    {
+      "id": "t4-p7-t4-p7-triple-3-5",
+      "part": 7,
+      "section": "Reading",
+      "materialId": "t4-p7-triple-3",
+      "prompt": "What will be left for the late arrival?",
+      "choices": {
+        "A": "A printed certificate.",
+        "B": "A new registration form.",
+        "C": "A workbook.",
+        "D": "A meal receipt."
+      },
+      "answer": "C",
+      "explanation": "Learning Services says a workbook will be left there."
+    }
+  ]
+}
